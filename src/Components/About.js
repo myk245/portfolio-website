@@ -8,7 +8,8 @@ function About() {
             elevation={0}
             style={{ padding: 40, margin: 40, backgroundColor: '#fff0f0' }}
             variant='outlined'
-         >
+            >
+            {/* blue: #f0f8ff */}
             <Grid
                container
                justify="center"
@@ -16,10 +17,10 @@ function About() {
             >
                <Grid item xs zeroMinWidth>
                   <Typography class='about-section'>
-                     Hello there! My name is Cindy Kei. I was born in Hong Kong and raised in New York City (QGTM!). 
+                     Hello there, my name is Cindy Kei. I was born in Hong Kong and raised in New York City (QGTM!). 
                      <br></br>
                      <br></br>
-                     I am a Fullstack Software Engineer with experience in Ruby and JavaScript based programming. I have a thing for clean, 
+                     I am a Fullstack Software Engineer based in NYC, but I'm very open to relocating. I have a thing for clean, 
                      well-designed, and intuitive websites and applications. 
                      <br></br>
                      <br></br>
