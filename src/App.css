@@ -3,7 +3,7 @@
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
+@media (max-width: 500px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -20,10 +20,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .main-heading {
   color: rgb(0, 0, 0);
   font-family: 'Montserrat', sans-serif;
@@ -33,15 +29,33 @@
 
 .about-section {
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
+.main-image {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  padding: 0.5px;
+  border: 1px solid #fafafa;
+}
+
+.navbar {
+  color: #291717;
+}
+
+.avatar-logo {
+  height: 80px; 
+  width: 80px;
+  padding: 5px;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
