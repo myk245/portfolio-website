@@ -15,7 +15,7 @@ function About() {
                justify="center"
                alignItems="center"
             >
-               <Grid item> 
+               <Grid item class="main-image-container"> 
                   <img
                      src='https://lh3.googleusercontent.com/nht0lmobu0UYvhq9ioZeVBwXqWuVHtOelYC9UH3nE1HQqXqWwGhh1yMc6xPSy44JV1krpReAYH99tcN0v4KqyTz627XuEqJwsfOxvopit54MANQOXUhTeV1FUDBLuUHoe5ntJWufvII=w2400'
                      alt='Cindy Kei'

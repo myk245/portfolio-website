@@ -33,6 +33,10 @@
   font-size: 16px;
 }
 
+.main-image-container {
+  margin-right: 40px;
+}
+
 .main-image {
   max-width: 100%;
   height: auto;
