@@ -5,7 +5,7 @@ function About() {
    return (
       <div>
          <Paper
-            elevation={0}
+            elevation={1}
             style={{ padding: 40, margin: 40, backgroundColor: '#fff0f0' }}
             variant='outlined'
             >
@@ -15,7 +15,7 @@ function About() {
                justify="center"
                alignItems="center"
             >
-               <Grid item xs> 
+               <Grid item> 
                   <img
                      src='https://lh3.googleusercontent.com/nht0lmobu0UYvhq9ioZeVBwXqWuVHtOelYC9UH3nE1HQqXqWwGhh1yMc6xPSy44JV1krpReAYH99tcN0v4KqyTz627XuEqJwsfOxvopit54MANQOXUhTeV1FUDBLuUHoe5ntJWufvII=w2400'
                      alt='Cindy Kei'
@@ -26,7 +26,8 @@ function About() {
                </Grid>
                <Grid item xs zeroMinWidth>
                   <Typography class='about-section'>
-                     Hi there, my name is Cindy. I was born in Hong Kong and raised in New York City (QGTM!). 
+                     Hi there, my name is Cindy. I was born in Hong Kong and raised in New York City (QGTM!). I graduated from NYU, where I studied 
+                     Linguistic Anthropology, and am a Phi Beta Kappa member0
                      <br></br>
                      <br></br>
                      I am a Fullstack Software Engineer based in NYC (but I'm open to relocating). I have a thing for clean, 
