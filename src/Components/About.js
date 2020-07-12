@@ -26,8 +26,8 @@ function About() {
                </Grid>
                <Grid item xs zeroMinWidth>
                   <Typography class='about-section'>
-                     Hi there, my name is Cindy. I was born in Hong Kong and raised in New York City (QGTM!). I graduated from NYU, where I studied 
-                     Linguistic Anthropology, and am a Phi Beta Kappa member0
+                     Hi there, my name is Cindy Kei. I was born in Hong Kong and raised in New York City (QGTM!). I hold a B.A. in Linguistic Anthropology from NYU 
+                     and I am a member of Phi Beta Kappa.
                      <br></br>
                      <br></br>
                      I am a Fullstack Software Engineer based in NYC (but I'm open to relocating). I have a thing for clean, 
