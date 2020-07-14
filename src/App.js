@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Route, Switch } from 'react-router-dom';
 import Logo from './Components/Logo'; 
 import NavBar from './Components/NavBar';
 import Icons from './Components/Icons'; 

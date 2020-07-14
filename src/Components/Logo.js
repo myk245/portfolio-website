@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Logo() {
 return (
@@ -9,9 +8,7 @@ return (
       <br></br>
       <br></br>
       <br></br>
-      <Link to="/about">
-         Click here to learn more about me →
-      </Link>   
+      <a href=''>Click here to learn more about me → </a>
    </div>
    )
 }
