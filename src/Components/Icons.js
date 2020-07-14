@@ -18,6 +18,8 @@ function Icons() {
          <a href="mailto:cindykei92@gmail.com" target="_blank" class="icons-bar">
             <EmailSharpIcon fontSize="large" color="black"/>
          </a>
+         <br></br>
+         <p id="connect-with">Let's connect!</p>
       </div>
    )
 }

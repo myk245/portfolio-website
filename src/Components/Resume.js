@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'; 
 
-function Contact() {
+function Resume() {
    return (
       <div>
          <br></br>
          <br></br>
-         Contact Form Coming Soon!
+        Resume coming soon! 
          <br></br>
          <br></br>
       </div>
    )
 }
 
-export default Contact; 
+export default Resume; 
