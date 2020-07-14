@@ -1,5 +1,6 @@
 import React from 'react';
 import { Paper, Grid, Typography } from '@material-ui/core';
+import Icons from './Icons';
 
 function About() {
    return (
@@ -50,6 +51,10 @@ function About() {
                </Grid>
             </Grid>
          </Paper> 
+
+         <div>
+            <Icons />
+         </div>
       </div>
    )
 }
