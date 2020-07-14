@@ -49,6 +49,22 @@
   color: #291717;
 }
 
+.logo-div{
+  padding: 30px;
+  margin: 30px;
+}
+
+.logo {
+  height: 700px; 
+  width: 700px;
+}
+
+.click-more {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+}
+
 .avatar-logo {
   height: 80px; 
   width: 80px;
