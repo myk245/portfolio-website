@@ -14,6 +14,7 @@ function App() {
         <Route exact path="/" component={Logo} />
         <Route path="/about" component={About} />
       </Switch>
+      <Icons />
     </div>
   );
 }

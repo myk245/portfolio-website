@@ -8,7 +8,7 @@ return (
       <br></br>
       <br></br>
       <br></br>
-      <a href=''>Click here to learn more about me → </a>
+      <a href='/about' class="click-more">Click here to learn more about me → </a>
    </div>
    )
 }
