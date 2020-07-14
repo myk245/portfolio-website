@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Home from './Components/Home'; 
-import About from './Components/About'; 
+import Logo from './Components/Logo'; 
 import NavBar from './Components/NavBar';
+import Icons from './Components/Icons'; 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Home />
-      <About />
+      <Logo />
+      <Icons />
     </div>
   );
 }

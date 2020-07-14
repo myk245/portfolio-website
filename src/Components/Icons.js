@@ -2,10 +2,13 @@ import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailSharpIcon from '@material-ui/icons/EmailSharp';
+import { Divider } from '@material-ui/core';
 
 function Icons() {
    return (
       <div>
+         <Divider />
+         <br></br>
          <a href="https://www.linkedin.com/in/cindy-kei/" target="_blank" class="icons-bar">
             <LinkedInIcon fontSize="large" />
          </a>
