@@ -17,11 +17,13 @@ export default function NavBar() {
       <div>
          <AppBar position="static" style={{ background: 'white' }}>
             <Toolbar>
-{              <Avatar
-                  alt="Cindy Kei logo"
-                  src="wave-logo.png"
-                  class="avatar-logo"
-               />}
+               <a href='/'>
+                  <Avatar
+                     alt="Cindy Kei logo"
+                     src="wave-logo.png"
+                     class="avatar-logo"
+                  />
+               </a>
                
                <div className={classes.rightToolbar}>
                   <IconButton
