@@ -1,15 +1,15 @@
 import React from 'react';
 
-function Contact() {
+function Projects() {
    return (
       <div>
          <br></br>
          <br></br>
-         Contact Form Coming Soon!
+         Coming Soon!
          <br></br>
          <br></br>
       </div>
    )
 }
 
-export default Contact; 
+export default Projects; 

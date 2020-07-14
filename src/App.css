@@ -63,7 +63,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 19px;
-  color: rgb(53, 51, 51); 
+  color: rgb(53, 53, 53); 
 }
 
 .avatar-logo {
@@ -75,6 +75,13 @@
 .icons-bar {
   color: black; 
   padding: 20px;
+}
+
+#connect-with {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: cornflowerblue; 
 }
 
 /* @keyframes App-logo-spin {
