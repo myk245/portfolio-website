@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 @media (max-width: 500px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -20,24 +19,24 @@
   color: white;
 }
 
-.main-heading {
+#main-heading {
   color: rgb(0, 0, 0);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 50px;
 }
 
-.about-section {
+#about-section {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
 
-.main-image-container {
+#main-image-container {
   margin-right: 40px;
 }
 
-.main-image {
+#main-image {
   max-width: 100%;
   height: auto;
   width: auto\9;
@@ -49,24 +48,24 @@
   color: #291717;
 }
 
-.logo-div{
+#logo-div{
   padding: 30px;
   margin: 30px;
 }
 
-.logo {
+#logo {
   height: 600px; 
   width: 600px;
 }
 
-.click-more {
+#click-more {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 19px;
   color: rgb(53, 53, 53); 
 }
 
-.avatar-logo {
+#avatar-logo {
   height: 70px; 
   width: 70px;
   padding: 5px;

@@ -15,17 +15,17 @@ function About() {
                justify="center"
                alignItems="center"
             >
-               <Grid item class="main-image-container"> 
+               <Grid item id="main-image-container"> 
                   <img
                      src="https://lh3.googleusercontent.com/nht0lmobu0UYvhq9ioZeVBwXqWuVHtOelYC9UH3nE1HQqXqWwGhh1yMc6xPSy44JV1krpReAYH99tcN0v4KqyTz627XuEqJwsfOxvopit54MANQOXUhTeV1FUDBLuUHoe5ntJWufvII=w2400"
                      alt="Cindy Kei"
-                     class="main-image"
+                     id="main-image"
                      width="500"
                      height="500"
                   />
                </Grid>
                <Grid item xs zeroMinWidth>
-                  <Typography class="about-section">
+                  <Typography id="about-section">
                      Hi there, my name is Cindy Kei. I was born in Hong Kong and raised in New York City (QGTM!). I hold a B.A. in Linguistic Anthropology from NYU 
                      and I am a member of Phi Beta Kappa.
                      <br></br>

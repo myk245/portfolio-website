@@ -21,7 +21,7 @@ export default function NavBar() {
                   <Avatar
                      alt="Cindy Kei logo"
                      src="wave-logo.png"
-                     class="avatar-logo"
+                     id="avatar-logo"
                   />
                </a>
                
