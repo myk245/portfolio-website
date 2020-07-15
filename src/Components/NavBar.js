@@ -27,7 +27,7 @@ function NavBar() {
                
                <div>
                   <IconButton aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-                     <MenuRoundedIcon />
+                     <MenuRoundedIcon fontSize="large"/>
                   </IconButton>
                   <Menu
                      id="simple-menu"
