@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Avatar} from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Avatar, Menu, MenuItem} from '@material-ui/core';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -14,8 +14,8 @@ export default function NavBar() {
    const classes = useStyles(); 
 
    return (
-      <div>
-         <AppBar position="static" style={{ background: 'white' }}>
+      <div id="navbar">
+         <AppBar position="sticky" style={{ background: 'white' }}>
             <Toolbar>
                <a href='/'>
                   <Avatar
@@ -26,13 +26,14 @@ export default function NavBar() {
                </a>
                
                <div className={classes.rightToolbar}>
-                  <IconButton
-                     edge="start"
-                     aria-label="menu"
-                     className={classes.menuButton}
+                  <Menu
+                     id="simple-menu"
+                     keepMounted
                   >
-                     <MenuRoundedIcon />
-                  </IconButton>
+                     <MenuItem >Profile</MenuItem>
+                     <MenuItem >My account</MenuItem>
+                     <MenuItem >Logout</MenuItem>
+                  </Menu>
                </div>
             </Toolbar>
          </AppBar>
