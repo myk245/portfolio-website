@@ -1,17 +1,17 @@
 import React from 'react';
 import { AppBar, Toolbar, IconButton, Avatar, Menu, MenuItem} from '@material-ui/core';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
-import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles => ({
-   rightToolbar: {
-      marginLeft: "auto", 
-      marginRight: "auto"
-   }
-}); 
+function NavBar() {
+   const [anchorEl, setAnchorEl] = React.useState(null);
 
-export default function NavBar() {
-   const classes = useStyles(); 
+   const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+   };
+
+   const handleClose = () => {
+      setAnchorEl(null);
+   };
 
    return (
       <div id="navbar">
@@ -25,14 +25,35 @@ export default function NavBar() {
                   />
                </a>
                
-               <div className={classes.rightToolbar}>
+               <div>
+                  <IconButton aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+                     <MenuRoundedIcon />
+                  </IconButton>
                   <Menu
                      id="simple-menu"
+                     anchorEl={anchorEl}
                      keepMounted
+                     open={Boolean(anchorEl)}
+                     onClose={handleClose}
                   >
-                     <MenuItem >Profile</MenuItem>
-                     <MenuItem >My account</MenuItem>
-                     <MenuItem >Logout</MenuItem>
+                     <a class="menu-items" href="/">
+                        <MenuItem onClick={handleClose}>Home</MenuItem>
+                     </a>
+                     <a class="menu-items" href="/about">
+                        <MenuItem onClick={handleClose}>About Me</MenuItem>
+                     </a>
+                     <a class="menu-items" href="/projects">
+                        <MenuItem onClick={handleClose}>Projects</MenuItem>
+                     </a>
+                     <a class="menu-items" href="/resume">
+                        <MenuItem onClick={handleClose}>Resumé</MenuItem>
+                     </a>
+                     <a class="menu-items" href="/blog_posts">
+                        <MenuItem onClick={handleClose}>Blog Posts</MenuItem>
+                     </a>
+                     <a class="menu-items" href="/contact">
+                        <MenuItem onClick={handleClose}>Get In Touch</MenuItem>
+                     </a>
                   </Menu>
                </div>
             </Toolbar>
@@ -40,3 +61,5 @@ export default function NavBar() {
       </div>
    )
 }
+
+export default NavBar;
