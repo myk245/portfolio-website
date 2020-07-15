@@ -45,7 +45,7 @@ function About() {
                      In my downtime, I enjoy reading, writing, traveling, and learning about and experiencing the diverse languages, cultures, and cuisines of the world. 
                      <br></br>
                      <br></br>
-                     <i>I'd love to hear from you, so please feel free to contact me!</i>
+                     <b><i>I'd love to hear from you, so please feel free to reach out!</i></b>
                   </Typography> 
                </Grid>
             </Grid>

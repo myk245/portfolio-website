@@ -47,7 +47,7 @@
 #navbar {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 12px;
   color: rgb(53, 53, 53); 
 }
 
@@ -66,6 +66,7 @@
   font-weight: 700;
   font-size: 19px;
   color: rgb(53, 53, 53); 
+  text-decoration: none;
 }
 
 #avatar-logo {
@@ -84,6 +85,14 @@
   font-weight: 700;
   font-size: 15px;
   color: cornflowerblue; 
+}
+
+.menu-items {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: rgb(53, 53, 53); 
+  text-decoration: none;
 }
 
 /* @keyframes App-logo-spin {
