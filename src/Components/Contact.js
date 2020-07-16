@@ -60,7 +60,7 @@ class Contact extends React.Component {
 
                   <br></br>
                   <br></br>
-                  <Button variant="outlined" color="primary" size="small" endIcon={<Icon>send</Icon>}>Send Message</Button>
+                  <Button variant="contained" color="primary" size="small" endIcon={<Icon>send</Icon>}>Send Message</Button>
  
                </form>
             </Paper>
