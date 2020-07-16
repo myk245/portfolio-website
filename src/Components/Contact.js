@@ -6,6 +6,7 @@ class Contact extends React.Component {
    state = {
       name: "", 
       email: "", 
+      subject: "",
       message: ""
    }
 
@@ -36,7 +37,7 @@ class Contact extends React.Component {
                   />
                   <br></br>
                   <TextField
-                     label="Email"
+                     label="Email Address"
                      type="email"
                      name="email"
                      multiline
@@ -44,6 +45,17 @@ class Contact extends React.Component {
                      variant="outlined"
                      size="small"
                      id="email-field"
+                     onChange={this.handleChange}
+                  />
+                  <br></br>
+                  <TextField
+                     label="Subject"
+                     name="subject"
+                     multiline
+                     rows={1}
+                     variant="outlined"
+                     size="small"
+                     id="subject-field"
                      onChange={this.handleChange}
                   />
                   <br></br>
