@@ -20,7 +20,7 @@ function NavBar() {
                <a href='/'>
                   <Avatar
                      alt="Cindy Kei logo"
-                     src="wave-logo.png"
+                     src="circle-cropped.png"
                      id="avatar-logo"
                   />
                </a>
