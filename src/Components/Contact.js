@@ -1,13 +1,12 @@
 import React from 'react';
 import { TextField, Paper, Button, Icon } from '@material-ui/core';
-import axios from 'axios'; 
+import { EmailJSResponseStatus } from 'emailjs-com';
 
 class Contact extends React.Component {
 
    state = {
       name: "", 
       email: "", 
-      subject: "",
       message: ""
    }
 
@@ -17,18 +16,24 @@ class Contact extends React.Component {
       })
    }
 
-   async handleSubmit(event) {
+   handleSubmit = (event) => {
       event.preventDefault();
+  
+      const templateParams = {
+         from_name: this.state.name + "(" + this.state.email + ")", 
+         to_name: Cindy, 
+         message_html: this.state.message 
+      }
 
-      const { name, email, subject, message } = this.state 
+      emailjs.send("gmail", "cindykei92", templateParams, {template_TEAD2c1g})
 
-      const form = await axios.post('/api/form', {
-         name,  
-         email,
-         subject, 
-         message
+   resetForm = () => {
+      this.setState({
+         name: "",
+         email: "",
+         subject: "",
+         message: ""
       })
-      
    }
 
    render() {  
@@ -60,17 +65,6 @@ class Contact extends React.Component {
                      variant="outlined"
                      size="small"
                      id="email-field"
-                     onChange={this.handleChange}
-                  />
-                  <br></br>
-                  <TextField
-                     label="Subject"
-                     name="subject"
-                     multiline
-                     rows={1}
-                     variant="outlined"
-                     size="small"
-                     id="subject-field"
                      onChange={this.handleChange}
                   />
                   <br></br>
