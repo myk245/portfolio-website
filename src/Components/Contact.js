@@ -16,6 +16,14 @@ class Contact extends React.Component {
       })
    }
 
+   resetForm = () => {
+      this.setState({
+         name: "",
+         email: "",
+         message: ""
+      })
+   }
+
    handleSubmit = (event) => {
       event.preventDefault();
   
@@ -26,6 +34,7 @@ class Contact extends React.Component {
       }
 
       emailjs.send("cindy_s_email", "template_TEAD2c1g", templateParams, "user_7sPawwVPHo7YF23EhIM7I")
+         
          .then(() => {
             alert("Thank you for getting in touch! I'll get back to you as soon as I can.")
          })
@@ -33,11 +42,7 @@ class Contact extends React.Component {
             alert("Email failed to send. Please try again.", error)
          }) 
       
-      this.setState({
-         name: "",
-         email: "",
-         message: ""
-      }); 
+      this.resetForm(); 
    }
 
    render() {  
