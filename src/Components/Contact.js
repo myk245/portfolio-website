@@ -17,10 +17,10 @@ class Contact extends React.Component {
       })
    }
 
-   async handleSubmit = (event) => {
+   async handleSubmit(event) {
       event.preventDefault();
 
-      const { name, email, subject, message } = state 
+      const { name, email, subject, message } = this.state 
 
       const form = await axios.post('/api/form', {
          name,  
