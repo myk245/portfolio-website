@@ -1,5 +1,6 @@
 import React from 'react';
 import { TextField, Paper, Button, Icon } from '@material-ui/core';
+import axios from 'axios'; 
 
 class Contact extends React.Component {
 
@@ -14,6 +15,20 @@ class Contact extends React.Component {
       this.setState({
          [event.target.name]: event.target.value
       })
+   }
+
+   async handleSubmit = (event) => {
+      event.preventDefault();
+
+      const { name, email, subject, message } = state 
+
+      const form = await axios.post('/api/form', {
+         name,  
+         email,
+         subject, 
+         message
+      })
+      
    }
 
    render() {  
