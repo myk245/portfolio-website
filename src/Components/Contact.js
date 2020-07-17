@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextField, Paper, Button, Icon } from '@material-ui/core';
-import { EmailJSResponseStatus } from 'emailjs-com';
+import * as emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
 
@@ -20,20 +20,24 @@ class Contact extends React.Component {
       event.preventDefault();
   
       const templateParams = {
-         from_name: this.state.name + "(" + this.state.email + ")", 
-         to_name: Cindy, 
-         message_html: this.state.message 
+         from_name: this.state.name + "(" + this.state.email + ")",
+         to_name: "Cindy",
+         message_html: this.state.message
       }
 
-      emailjs.send("gmail", "cindykei92", templateParams, {template_TEAD2c1g})
-
-   resetForm = () => {
+      emailjs.send("cindy_s_email", "template_TEAD2c1g", templateParams, "user_7sPawwVPHo7YF23EhIM7I")
+         .then(() => {
+            alert("Thank you for getting in touch! I'll get back to you as soon as I can.")
+         })
+         .catch((error) => {
+            alert("Email failed to send. Please try again.", error)
+         }) 
+      
       this.setState({
          name: "",
          email: "",
-         subject: "",
          message: ""
-      })
+      }); 
    }
 
    render() {  
@@ -81,7 +85,7 @@ class Contact extends React.Component {
 
                   <br></br>
                   <br></br>
-                  <Button variant="contained" color="primary" size="small" endIcon={<Icon>send</Icon>}>Send Message</Button>
+                  <Button variant="contained" color="primary" size="small" endIcon={<Icon>send</Icon>} onClick={this.handleSubmit}>Send Message</Button>
  
                </form>
             </Paper>
