@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextField, Paper, Button, Icon } from '@material-ui/core';
+import { TextField, Paper, Button, Icon, IconButton, Snackbar } from '@material-ui/core';
 import * as emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
@@ -7,7 +7,9 @@ class Contact extends React.Component {
    state = {
       name: "", 
       email: "", 
-      message: ""
+      message: "", 
+      snackbaropen: false, 
+      snackbarmsg: ''
    }
 
    handleChange = (event) => {
@@ -24,6 +26,12 @@ class Contact extends React.Component {
       })
    }
 
+   snackbarClose = () => {
+      this.setState({
+         snackbaropen: false
+      })
+   }
+
    handleSubmit = (event) => {
       event.preventDefault();
   
@@ -36,17 +44,45 @@ class Contact extends React.Component {
       emailjs.send("cindy_s_email", "template_TEAD2c1g", templateParams, "user_7sPawwVPHo7YF23EhIM7I")
          
          .then(() => {
-            alert("Thank you for getting in touch! I'll get back to you as soon as I can.")
-         })     
-         .catch((error) => {
-            alert("Email failed to send. Please try again.", error)
-         }) 
+            this.setState({
+               snackbaropen: true, 
+               snackbarmsg: "Thank you for your message. I'll get back to you as soon as I can."
+            })
+         },
+            () => {
+               this.setState({
+                  snackbaropen: true,
+                  snackbarmsg: "Message failed to send. Please try again."
+               })
+            }
+      )     
+         
          .then(this.resetForm())
    }
 
    render() {  
       return (
          <div>
+            <Snackbar
+               anchorOrigin={{
+                  vertical: 'top',
+                  horizontal: 'center',}}
+               open={this.state.snackbaropen}
+               autoHideDuration={3000}
+               onClose={this.snackbarClose}
+               message={this.state.snackbarmsg}
+               action={
+                  <IconButton
+                     key="close"
+                     aria-label="Close"
+                     color="inherit"
+                     onClick={this.snackbarClose}
+                  >
+                  x
+                  </IconButton>
+               }
+            >     
+            </Snackbar>
             <br></br>
             <br></br>
             <br></br>
