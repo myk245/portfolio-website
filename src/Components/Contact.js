@@ -37,12 +37,11 @@ class Contact extends React.Component {
          
          .then(() => {
             alert("Thank you for getting in touch! I'll get back to you as soon as I can.")
-         })
+         })     
          .catch((error) => {
             alert("Email failed to send. Please try again.", error)
          }) 
-      
-      this.resetForm(); 
+         .then(this.resetForm())
    }
 
    render() {  
@@ -55,8 +54,8 @@ class Contact extends React.Component {
                <form>
                   <TextField
                      label="Name"
-                     type="text"
                      name="name"
+                     value={this.state.name}
                      multiline
                      rows={1}
                      variant="outlined"
@@ -67,8 +66,8 @@ class Contact extends React.Component {
                   <br></br>
                   <TextField
                      label="Email Address"
-                     type="email"
                      name="email"
+                     value={this.state.email}
                      multiline
                      rows={1}
                      variant="outlined"
@@ -80,6 +79,7 @@ class Contact extends React.Component {
                   <TextField
                      label="Message"
                      name="message"
+                     value={this.state.message}
                      multiline
                      rows={5}
                      variant="outlined"
