@@ -88,8 +88,8 @@ class Contact extends React.Component {
             <br></br>
             <Paper class="paper-section" elevation={3} variant="outlined">
                <div>
-                  <h1 id="in-touch">Get In Touch</h1>
-                  <h6 id="in-touch-sub">Use the below contact form to send me any questions or comments. Or feel free to just say hi!</h6>
+                  <h1 class="page-title">Get In Touch</h1>
+                  <h6 class="page-subtitle">Use the below contact form to send me any questions or comments. Or feel free to just say hi!</h6>
                </div>
                <form>
                   <TextField
