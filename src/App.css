@@ -104,14 +104,14 @@
   border: 3px solid #fafafa;
 }
 
-#in-touch {
+.page-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 35px;
   color: cornflowerblue; 
 }
 
-#in-touch-sub {
+.page-subtitle {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 15px;
