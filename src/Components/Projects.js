@@ -9,7 +9,7 @@ function Projects() {
          <Paper class="paper-section" elevation={3} variant="outlined">
             <div>
                <h1 class="page-title">My Projects</h1>
-               <h6 class="page-subtitle">Click on a project below to see more about that project.</h6>
+               <h6 class="page-subtitle">Click on a project below to view further details.</h6>
             </div>
          </Paper>
          <br></br>
