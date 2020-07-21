@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Avatar, Menu, MenuItem} from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Avatar, Menu, MenuItem, Typography} from '@material-ui/core';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
 function NavBar() {
@@ -24,7 +24,13 @@ function NavBar() {
                      id="avatar-logo"
                   />
                </a>
-               
+
+               <div id="navbar-title">
+                  <Typography variant="h4">
+                     Cindy Kei
+                  </Typography>
+               </div>
+
                <div>
                   <IconButton aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                      <MenuRoundedIcon fontSize="large"/>

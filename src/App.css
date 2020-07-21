@@ -49,11 +49,17 @@
   font-weight: 700;
   font-size: 12px;
   color: rgb(53, 53, 53); 
+  text-align: center;
 }
 
 #logo-div{
   padding: 30px;
   margin: 30px;
+}
+
+#navbar-title {
+  color: rgb(93, 93, 131); 
+  margin: 0 auto;
 }
 
 #logo {
