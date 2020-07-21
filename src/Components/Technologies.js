@@ -15,10 +15,10 @@ function Icons() {
                <Divider />
                <br></br>
                <br></br>
-               <span class="fab fa-js-square fa-10x"></span>
+               <span class="fab fa-js-square fa-10x" style={{ color: "rgb(203, 221, 255)"}}></span>
                <p class="tech-p">JavaScript</p>
                <br></br>
-               <span class="fab fa-react fa-10x fa-spin"></span>
+               <span class="fab fa-react fa-10x fa-spin" style={{ color: "rgb(203, 221, 255)" }}></span>
                <p class="tech-p">React</p>
                <br></br>
                <span class="devicon-ruby-plain"></span>
@@ -28,7 +28,7 @@ function Icons() {
                <p class="tech-p">Rails</p>
                <br></br>
                <br></br>
-               <h3>More To Come!</h3>
+               <h3>I'm always trying to learn, so please check back in a bit to see what technologies I learn next!</h3>
             </div>
          </Paper>  
          <br></br>
