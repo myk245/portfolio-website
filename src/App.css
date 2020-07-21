@@ -143,3 +143,18 @@
   padding-left: 40px;
   padding-right: 40px;
 }
+
+#tech-div {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(150, 154, 165); 
+}
+
+.devicon-ruby-plain {
+  font-size: 8rem;
+}
+
+.devicon-rails-plain {
+  font-size: 8rem;
+}

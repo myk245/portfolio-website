@@ -9,6 +9,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact'; 
 import Resume from './Components/Resume'; 
 import Post from './Components/Post';
+import Technologies from './Components/Technologies'; 
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Logo} />
         <Route path="/about" component={About} />
+        <Route path="/technologies" component={Technologies} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
