@@ -153,10 +153,15 @@
 
 .devicon-ruby-plain {
   font-size: 8rem;
-  color: rgb(203, 221, 255);
+  color: rgb(164, 195, 252);
 }
 
 .devicon-rails-plain {
   font-size: 8rem;
-  color: rgb(203, 221, 255);
+  color: rgb(164, 195, 252);
+}
+
+.devicon-postgresql-plain {
+  font-size: 8rem;
+  color: rgb(164, 195, 252);
 }
