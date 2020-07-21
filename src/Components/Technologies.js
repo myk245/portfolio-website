@@ -15,20 +15,23 @@ function Icons() {
                <Divider />
                <br></br>
                <br></br>
-               <span class="fab fa-js-square fa-10x" style={{ color: "rgb(203, 221, 255)"}}></span>
-               <p class="tech-p">JavaScript</p>
+               <span class="fab fa-js-square fa-10x" style={{ color: "rgb(164, 195, 252)"}}></span>
+               <p>JavaScript</p>
                <br></br>
-               <span class="fab fa-react fa-10x fa-spin" style={{ color: "rgb(203, 221, 255)" }}></span>
-               <p class="tech-p">React</p>
+               <span class="fab fa-react fa-10x fa-spin" style={{ color: "rgb(164, 195, 252)" }}></span>
+               <p>React</p>
                <br></br>
                <span class="devicon-ruby-plain"></span>
-               <p class="tech-p">Ruby</p>
+               <p>Ruby</p>
                <br></br>
                <span class="devicon-rails-plain"></span>
-               <p class="tech-p">Rails</p>
+               <p>Rails</p>
+               <br></br>
+               <span class="devicon-postgresql-plain"></span>
+               <p>PostgreSQL</p>
                <br></br>
                <br></br>
-               <h3>I'm always trying to learn, so please check back in a bit to see what technologies I learn next!</h3>
+               <h4>I'm always trying to learn, so please check back in a bit to see what technologies I learn next!</h4>
             </div>
          </Paper>  
          <br></br>
