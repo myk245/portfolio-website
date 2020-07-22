@@ -54,8 +54,8 @@ function NavBar() {
                      <a class="menu-items" href="/projects">
                         <MenuItem onClick={handleClose}>Projects</MenuItem>
                      </a>
-                     <a class="menu-items" href="/resume">
-                        <MenuItem onClick={handleClose}>Resumé</MenuItem>
+                     <a class="menu-items" href="/experience">
+                        <MenuItem onClick={handleClose}>Experience</MenuItem>
                      </a>
                      <a class="menu-items" href="/blog_posts">
                         <MenuItem onClick={handleClose}>Blog Posts</MenuItem>
