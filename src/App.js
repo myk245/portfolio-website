@@ -8,7 +8,6 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact'; 
 import Experience from './Components/Experience'; 
-import Post from './Components/Post';
 import Technologies from './Components/Technologies'; 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
         <Route path="/experience" component={Experience} />
-        <Route path="/blog_posts" component={Post} />
       </Switch>
       <Icons />
     </div>
