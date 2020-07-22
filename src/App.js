@@ -7,7 +7,7 @@ import Icons from './Components/Icons';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact'; 
-import Resume from './Components/Resume'; 
+import Experience from './Components/Experience'; 
 import Post from './Components/Post';
 import Technologies from './Components/Technologies'; 
 
@@ -21,7 +21,7 @@ function App() {
         <Route path="/technologies" component={Technologies} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route path="/experience" component={Experience} />
         <Route path="/blog_posts" component={Post} />
       </Switch>
       <Icons />

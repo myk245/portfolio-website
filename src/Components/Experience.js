@@ -1,15 +1,15 @@
 import React from 'react'; 
 
-function Resume() {
+function Experience() {
    return (
       <div>
          <br></br>
          <br></br>
-        Resume coming soon! 
+        Experience section coming soon! 
          <br></br>
          <br></br>
       </div>
    )
 }
 
-export default Resume; 
+export default Experience; 
