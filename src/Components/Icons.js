@@ -19,6 +19,9 @@ function Icons() {
          <a href="https://twitter.com/KeiCindy" target="_blank" class="icons-bar">
             <TwitterIcon fontSize="large" color="black" />
          </a>
+         <a href="https://medium.com/@cindylouwho92" target="_blank" class="icons-bar">
+            <i class="fab fa-medium fa-3x"></i>
+         </a>
          <a href="mailto:cindykei92@gmail.com" target="_blank" class="icons-bar">
             <EmailSharpIcon fontSize="large" color="black"/>
          </a>
