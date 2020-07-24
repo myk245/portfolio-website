@@ -5,7 +5,7 @@ function Experience() {
       <div>
          <br></br>
          <br></br>
-        Experience section coming soon! 
+         Experience section coming soon! 
          <br></br>
          <br></br>
       </div>
