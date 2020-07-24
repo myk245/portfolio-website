@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Avatar, Menu, MenuItem, Typography} from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Avatar, Menu, MenuItem} from '@material-ui/core';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
 function NavBar() {
@@ -26,9 +26,12 @@ function NavBar() {
                </a>
 
                <div id="navbar-title">
-                  <Typography variant="h4">
-                     Cindy Kei
-                  </Typography>
+                  <img
+                     src="typography-logo.png"
+                     alt="name logo"
+                     width="200"
+                     height="100"
+                  />
                </div>
 
                <div>
