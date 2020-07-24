@@ -4,7 +4,11 @@ function Logo() {
 return (
    <div id="logo-div">
       <a href="/about">
-         <img src="wave-logo.png" id="logo" alt="Cindy Logo"></img>
+         <img
+            src="wave-logo.png"
+            id="logo"
+            alt="Cindy Logo"
+         />
       </a>
       <br></br>
       <br></br>
