@@ -46,8 +46,8 @@
 
 #navbar {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 11px;
   color: rgb(53, 53, 53); 
   text-align: center;
 }
@@ -58,7 +58,6 @@
 }
 
 #navbar-title {
-  color: rgb(102, 102, 164); 
   margin: 0 auto;
 }
 
