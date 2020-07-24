@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Paper, Card, CardContent, CardMedia, Typography} from '@material-ui/core';
 
+// https://www.youtube.com/watch?v=LnOqoD8Wov8&t=23s
+
 function Projects() {
    return (
       <div>
