@@ -5,6 +5,8 @@ import { Route, Switch } from 'react-router-dom';
 // https://www.youtube.com/watch?v=LnOqoD8Wov8&t=23s
 
 function Projects() {
+   
+
    return (
       <div>
          <br></br>
@@ -19,7 +21,8 @@ function Projects() {
                   
                   <Grid item
                      xs={12} sm={6} md={4}
-                     className="grid-card">
+                     className="grid-card"
+                     key="virago">
                      <Card class="project-card">
                            <Typography gutterBottom variant="h5" component="h2">
                               <b>Virago</b>
@@ -32,7 +35,7 @@ function Projects() {
                               title="Virago"
                            />
                            <CardContent>
-                              <Typography variant="body2" color="textSecondary" component="p">
+                              <Typography variant="body1" color="textSecondary" component="p">
                                  A centralized resource and community support group for mental health care.
                               </Typography>
                         </CardContent>
