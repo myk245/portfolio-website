@@ -22,13 +22,13 @@ function Projects() {
                      className="grid-card">
                      <Card class="project-card">
                            <Typography gutterBottom variant="h5" component="h2">
-                              Virago
+                              <b>Virago</b>
                            </Typography>
                            <CardMedia
                               component="img"
                               alt="A Mental Health Care App"
-                              height="140"
-                              image="https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png"
+                              height="400"
+                              image="Virago.png"
                               title="Virago"
                            />
                            <CardContent>
