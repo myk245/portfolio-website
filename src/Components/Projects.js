@@ -59,8 +59,8 @@ function Projects() {
                               Description to come. Description to come. Description to come. Description to come. 
                               </Typography>
                         </CardContent>
-                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" class="plain-link">GitHub</a></Typography>
-                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" class="plain-link">Demo</a></Typography>
+                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" class="plain-link">GitHub</a></Typography>
+                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" class="plain-link">Demo</a></Typography>
                      </Card>
                   </Grid>
 
@@ -83,8 +83,8 @@ function Projects() {
                               Description to come. Description to come. Description to come. Description to come. 
                               </Typography>
                         </CardContent>
-                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" class="plain-link">GitHub</a></Typography>
-                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" class="plain-link">Demo</a></Typography>
+                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" class="plain-link">GitHub</a></Typography>
+                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" class="plain-link">Demo</a></Typography>
                      </Card>
                   </Grid>
 
