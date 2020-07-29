@@ -140,6 +140,9 @@
   align-self: center;
   flex-grow: 1; 
   margin: auto;
+  border-style: solid;
+  border-color: rgba(100, 148, 237, 0.543);
+  border-width: 1px; 
 }
 
 #grid-div {
