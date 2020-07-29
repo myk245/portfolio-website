@@ -8,8 +8,8 @@ function Projects() {
       <div>
          <br></br>
          <br></br>
-            <h1 class="page-title">My Projects</h1>
-            <h6 class="page-subtitle">Below is a selection of my projects. Any feedback is welcome!</h6>
+            <h1 class="page-title">Projects</h1>
+            <h6 class="page-subtitle">Below is a selection of my projects. Please feel free to contact me with any questions or comments.</h6>
          <Paper class="paper-section" elevation={3} variant="outlined">
             <br></br>
             <br></br>
