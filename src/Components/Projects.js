@@ -2,17 +2,14 @@ import React from 'react';
 import { Grid, Paper, Card, CardContent, CardMedia, Typography} from '@material-ui/core';
 import { Route, Switch } from 'react-router-dom';
 
-// https://www.youtube.com/watch?v=LnOqoD8Wov8&t=23s
-
 function Projects() {
    
-
    return (
       <div>
          <br></br>
          <br></br>
             <h1 class="page-title">My Projects</h1>
-            <h6 class="page-subtitle">Click on a project below to view further details.</h6>
+            <h6 class="page-subtitle">Below is a selection of my projects. Any feedback is welcome!</h6>
          <Paper class="paper-section" elevation={3} variant="outlined">
             <br></br>
             <br></br>
@@ -25,7 +22,7 @@ function Projects() {
                      key="virago">
                      <Card class="project-card">
                            <Typography gutterBottom variant="h5" component="h2">
-                              <b>Virago</b>
+                              Virago
                            </Typography>
                            <CardMedia
                               component="img"
@@ -35,11 +32,12 @@ function Projects() {
                               title="Virago"
                            />
                            <CardContent>
-                              <Typography variant="body1" color="textSecondary" component="p">
+                              <Typography variant="body1" color="textPrimary" component="p">
                                  A centralized resource and community support group for mental health care.
                               </Typography>
                         </CardContent>
-                        <Typography>More Details→ </Typography>
+                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" class="plain-link">GitHub</a></Typography>
+                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" class="plain-link">Demo</a></Typography>
                      </Card>
                   </Grid>
 
