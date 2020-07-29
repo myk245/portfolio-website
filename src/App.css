@@ -170,3 +170,11 @@
   font-size: 8rem;
   color:  rgb(153, 156, 164);
 }
+
+.plain-link {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(46, 26, 116);
+}
