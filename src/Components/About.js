@@ -20,8 +20,6 @@ function About() {
                      src="cindy-kei.png"
                      alt="Cindy Kei"
                      id="main-image"
-                     width="500"
-                     height="500"
                   />
                </Grid>
                <Grid item xs zeroMinWidth>
