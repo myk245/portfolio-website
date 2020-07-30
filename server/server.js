@@ -1,6 +1,6 @@
 const host = '0.0.0.0';
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
-app.listen(port, host, function () {
+app.listen(PORT, host, function () {
    console.log("Server started...");
 });
