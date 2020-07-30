@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid, Paper, Card, CardContent, CardMedia, Typography} from '@material-ui/core';
-import { Route, Switch } from 'react-router-dom';
 
 function Projects() {
    
@@ -35,8 +34,8 @@ function Projects() {
                                  A centralized resource and community support group for mental health care.
                               </Typography>
                         </CardContent>
-                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" className="plain-link">GitHub</a></Typography>
-                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" className="plain-link">Demo</a></Typography>
+                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
+                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" className="plain-link">Demo</a></Typography>
                      </Card>
                   </Grid>
 
