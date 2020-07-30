@@ -45,22 +45,22 @@ function NavBar() {
                      open={Boolean(anchorEl)}
                      onClose={handleClose}
                   >
-                     <a class="menu-items" href="/">
+                     <a className="menu-items" href="/">
                         <MenuItem onClick={handleClose}>Home</MenuItem>
                      </a>
-                     <a class="menu-items" href="/about">
+                     <a className="menu-items" href="/about">
                         <MenuItem onClick={handleClose}>About Me</MenuItem>
                      </a>
-                     <a class="menu-items" href="/technologies">
+                     <a className="menu-items" href="/technologies">
                         <MenuItem onClick={handleClose}>Technologies</MenuItem>
                      </a>
-                     <a class="menu-items" href="/projects">
+                     <a className="menu-items" href="/projects">
                         <MenuItem onClick={handleClose}>Projects</MenuItem>
                      </a>
-                     <a class="menu-items" href="/experience">
+                     <a className="menu-items" href="/experience">
                         <MenuItem onClick={handleClose}>Experience</MenuItem>
                      </a>
-                     <a class="menu-items" href="/contact">
+                     <a className="menu-items" href="/contact">
                         <MenuItem onClick={handleClose}>Get In Touch</MenuItem>
                      </a>
                   </Menu>

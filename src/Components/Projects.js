@@ -8,9 +8,9 @@ function Projects() {
       <div>
          <br></br>
          <br></br>
-            <h1 class="page-title">Projects</h1>
-            <h6 class="page-subtitle">Below is a selection of my projects. Please feel free to contact me with any questions or comments.</h6>
-         <Paper class="paper-section" elevation={3} variant="outlined">
+            <h1 className="page-title">Projects</h1>
+            <h6 className="page-subtitle">Below is a selection of my projects. Please feel free to contact me with any questions or comments.</h6>
+         <Paper className="paper-section" elevation={3} variant="outlined">
             <br></br>
             <br></br>
             <div id="grid-div">
@@ -19,7 +19,7 @@ function Projects() {
                   <Grid item
                      xs={12} sm={6} md={4}
                      className="grid-card">
-                     <Card class="project-card">
+                     <Card className="project-card">
                            <Typography gutterBottom variant="h5" component="h2">
                               Virago
                            </Typography>
@@ -35,15 +35,15 @@ function Projects() {
                                  A centralized resource and community support group for mental health care.
                               </Typography>
                         </CardContent>
-                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" class="plain-link">GitHub</a></Typography>
-                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" class="plain-link">Demo</a></Typography>
+                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" className="plain-link">GitHub</a></Typography>
+                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" className="plain-link">Demo</a></Typography>
                      </Card>
                   </Grid>
 
                   <Grid item
                      xs={12} sm={6} md={4}
                      className="grid-card">
-                     <Card class="project-card">
+                     <Card className="project-card">
                         <Typography gutterBottom variant="h5" component="h2">
                            Coming Soon
                            </Typography>
@@ -59,15 +59,15 @@ function Projects() {
                               Description to come. Description to come. Description to come. Description to come. 
                               </Typography>
                         </CardContent>
-                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" class="plain-link">GitHub</a></Typography>
-                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" class="plain-link">Demo</a></Typography>
+                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
+                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" className="plain-link">Demo</a></Typography>
                      </Card>
                   </Grid>
 
                   <Grid item
                      xs={12} sm={6} md={4}
                      className="grid-card">
-                     <Card class="project-card">
+                     <Card className="project-card">
                         <Typography gutterBottom variant="h5" component="h2">
                            Coming Soon
                            </Typography>
@@ -83,8 +83,8 @@ function Projects() {
                               Description to come. Description to come. Description to come. Description to come. 
                               </Typography>
                         </CardContent>
-                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" class="plain-link">GitHub</a></Typography>
-                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" class="plain-link">Demo</a></Typography>
+                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
+                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" className="plain-link">Demo</a></Typography>
                      </Card>
                   </Grid>
 
