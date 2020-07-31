@@ -11,8 +11,7 @@ function Experience() {
             <img
                src="experience.png"
                alt="resume"
-               height="600"
-               width="900"
+               id="resume"
             />
          </Paper>
          <br></br>

@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-@media (max-width: 500px) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #ffffff;
   min-height: 100vh;
@@ -37,8 +31,8 @@
 }
 
 #main-image {
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
+  display: block; 
   height: auto;
   padding: 0.5px;
   border: 1px solid #fafafa;
@@ -64,6 +58,11 @@
 #logo {
   height: 500px; 
   width: 500px;
+}
+
+#resume {
+  height: 600px; 
+  width: 900px;
 }
 
 #click-more {
@@ -180,4 +179,16 @@
   font-weight: 700;
   font-size: 15px;
   color: rgb(46, 26, 116);
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    max-width: 80%; 
+    height: auto; 
+  }
+
+  #resume {
+    max-width: 90%;
+    height: auto;
+  }
 }
