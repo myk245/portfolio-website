@@ -22,9 +22,6 @@ function Icons() {
          <a href="https://medium.com/@cindylouwho92" target="_blank" rel="noopener noreferrer" className="icons-bar">
             <i className="fab fa-medium fa-3x"></i>
          </a>
-         <a href="mailto:cindykei92@gmail.com" target="_blank" rel="noopener noreferrer" className="icons-bar">
-            <EmailSharpIcon fontSize="large" color="black"/>
-         </a>
          <br></br>
          <p id="connect-with">Let's connect!</p>
       </div>
