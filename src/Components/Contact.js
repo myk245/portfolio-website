@@ -9,7 +9,7 @@ class Contact extends React.Component {
       email: "", 
       message: "", 
       snackbaropen: false, 
-      snackbarmsg: ''
+      snackbarmsg: ""
    }
 
    handleChange = (event) => {
@@ -34,7 +34,8 @@ class Contact extends React.Component {
 
    handleSubmit = (event) => {
       event.preventDefault();
-  
+      
+      // next up: add form validation 
       const templateParams = {
          from_name: this.state.name + "(" + this.state.email + ")",
          to_name: "Cindy",
@@ -60,7 +61,7 @@ class Contact extends React.Component {
          .then(this.resetForm())
    }
 
-   render() {  
+   render() { 
       return (
          <div>
             <Snackbar
