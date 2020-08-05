@@ -30,6 +30,12 @@ function Icons() {
                <span class="devicon-postgresql-plain"></span>
                <p>PostgreSQL</p>
                <br></br>
+               <span class="devicon-css3-plain"></span>
+               <p>CSS</p>
+               <br></br>
+               <span class="devicon-html5-plain"></span>
+               <p>HTML</p>
+               <br></br>
                <br></br>
                <h4>I'm always trying to learn, so please check back in a bit to see what technologies I learn next!</h4>
             </div>
