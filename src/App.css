@@ -28,13 +28,16 @@
 
 #main-image-container {
   margin-right: 40px;
+  align-content: center;
 }
 
 #main-image {
   max-width: 100%;
-  display: block; 
-  height: auto;
   width: 600px; 
+  height: auto;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
   padding: 0.5px;
   border: 1px solid #fafafa;
 }

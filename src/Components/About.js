@@ -28,7 +28,7 @@ function About() {
                      and I am a member of Phi Beta Kappa.
                      <br></br>
                      <br></br>
-                     I am a Fullstack Software Engineer based in NYC (but I'm open to relocating). I have a thing for clean, 
+                     I am a Fullstack Software Engineer based in NYC (but I'm open to relocating). I am inspired by clean, 
                      well-designed, and intuitive websites and applications. 
                      <br></br>
                      <br></br>
@@ -40,7 +40,7 @@ function About() {
                      are passionate about coding, collaborate on exciting projects, and learn from some of the very best developers. 
                      <br></br>
                      <br></br>
-                     In my downtime, I enjoy reading, writing, traveling, and learning about and experiencing the diverse languages, cultures, and cuisines of the world. 
+                     In my downtime, I enjoy reading, eating, watching funny videos of babies and puppies, traveling, and experiencing the diverse languages, cultures, and cuisines of the world. 
                      <br></br>
                      <br></br>
                      <b><i>I'd love to hear from you, so please feel free to reach out!</i></b>
