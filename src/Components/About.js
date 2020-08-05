@@ -15,16 +15,18 @@ function About() {
                justify="center"
                alignItems="center"
             >
-               <Grid item xs id="main-image-container"> 
+               <Grid item xs={10} id="main-image-container"> 
                   <img
                      src="cindy-kei.png"
                      alt="Cindy Kei"
                      id="main-image"
                   />
                </Grid>
-               <Grid item xs zeroMinWidth>
+               <Grid item xs={10} zeroMinWidth>
+                  <br></br>
+                  <br></br>
                   <Typography id="about-section">
-                     Hi there, my name is Cindy Kei. I was born in Hong Kong and raised in New York City (QGTM!). I hold a B.A. in Linguistic Anthropology from NYU 
+                     Hi, my name's Cindy. I was born in Hong Kong and raised in New York City (QGTM!). I hold a B.A. in Linguistic Anthropology from NYU 
                      and I am a member of Phi Beta Kappa.
                      <br></br>
                      <br></br>
