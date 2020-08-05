@@ -15,7 +15,7 @@ function About() {
                justify="center"
                alignItems="center"
             >
-               <Grid item id="main-image-container"> 
+               <Grid item xs id="main-image-container"> 
                   <img
                      src="cindy-kei.png"
                      alt="Cindy Kei"
