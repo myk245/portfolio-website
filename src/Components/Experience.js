@@ -6,19 +6,25 @@ function Experience() {
       <div>
          <br></br>
          <br></br>
-         <h1 class="page-title">Experience</h1>
-         <Paper class="paper-section" elevation={3} variant="outlined">
-            <Card class="experience-card">
-               <div>
-                  <p class="company-name">Simon & Schuster</p>
+         <h1 className="page-title">Experience</h1>
+         <Paper className="paper-section" elevation={3} variant="outlined">
+            <Card className="experience-card">
+               <div className="experience-left">
+                  <p className="company-name">Simon & Schuster</p>
                   <p>Subsidiary Rights Associate</p>
                </div>
+               <div className="experience-right">
+                  <p>New York, NY</p>
+                  <p>04/2017 - 12/2019</p>
+               </div>
+               <div className="experience-main">
+                  <br></br>
+                  <ul>
+                     <li>Compiled sales reports and presentation materials to drive foreign sales</li>
+                     <li>Crafted and pitched serial excerpts to targeted publications and contributed $12,000/year in serial sales</li>
+                  </ul>
+               </div>
             </Card>
-            {/* <img
-               src="experience.png"
-               alt="resume"
-               id="resume"
-            /> */}
          </Paper>
          <br></br>
          <br></br>

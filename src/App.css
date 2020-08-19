@@ -1,6 +1,7 @@
 * {
   padding: 0; 
   margin: 0; 
+  box-sizing: border-box;
 }
 
 .App {
@@ -73,11 +74,40 @@
 } */
 
 .experience-card {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500; 
   line-height: 1.6em; 
+  display: flex; 
+  padding: 20px; 
+  margin: 20px; 
+  flex-wrap: wrap; 
+  text-align: center; 
+}
+
+.experience-left {
+  align-self: flex-start; 
+  margin-right: auto;
+}
+
+.experience-right {
+  align-self: flex-end;
+  padding-left: 550px; 
+  float: right; 
+}
+
+.experience-main {
+  margin: auto;
+  
+}
+
+.experience-main ul {
+  text-align: left;
 }
 
 .company-name {
   font-weight: bold; 
+  color: cornflowerblue; 
+  text-align: left; 
 }
 
 #click-more {
@@ -212,9 +242,9 @@
     height: auto; 
   }
 
-  #resume {
+  /* #resume {
     max-width: 90%;
     height: auto;
-  }
+  } */
 }
 
