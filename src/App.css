@@ -1,3 +1,8 @@
+* {
+  padding: 0; 
+  margin: 0; 
+}
+
 .App {
   text-align: center;
 }
@@ -62,9 +67,17 @@
   width: 500px;
 }
 
-#resume {
+/* #resume {
   height: 600px; 
   width: 900px;
+} */
+
+.experience-card {
+  line-height: 1.6em; 
+}
+
+.company-name {
+  font-weight: bold; 
 }
 
 #click-more {
