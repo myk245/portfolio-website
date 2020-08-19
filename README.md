@@ -32,6 +32,7 @@ http://www.cindykei.com/
 ## Planned Features 
 
 - Blog Posts
+- Add tech stack to projects
 - More Projects
 - Redesign of experience section
 
