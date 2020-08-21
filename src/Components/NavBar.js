@@ -26,12 +26,14 @@ function NavBar() {
                </a>
 
                <div id="navbar-title">
-                  <img
-                     src="typography-logo.png"
-                     alt="name logo"
-                     width="230"
-                     height="100"
-                  />
+                  <a href='/'>
+                     <img
+                        src="typography-logo.png"
+                        alt="name logo"
+                        width="230"
+                        height="100"
+                     />
+                  </a>
                </div>
 
                <div>
