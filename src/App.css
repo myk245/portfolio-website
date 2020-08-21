@@ -83,6 +83,7 @@
   align-self: flex-start; 
   float: left; 
   flex-flow: column;
+  text-align: left; 
 }
 
 .experience-right {
@@ -105,7 +106,7 @@
 
 .company-name {
   font-weight: bold; 
-  color: rgb(78, 149, 255); 
+  color: rgb(78, 119, 255); 
   text-align: left; 
 }
 
