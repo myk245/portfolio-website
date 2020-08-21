@@ -26,7 +26,7 @@ function Experience() {
                      <p className="company-name">Flatiron School</p>
                      <p>January 2020 - May 2020</p>
                      <p>New York, NY</p>
-                     <p>Full Stack Web Development, Ruby on Rails and JavaScript</p>
+                     <p>Immersive Full Stack Web Development</p>
                   </div>
                </Card>
                <br></br>
