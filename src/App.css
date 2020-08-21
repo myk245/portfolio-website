@@ -77,28 +77,30 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 500; 
   line-height: 1.6em; 
-  display: flex; 
   padding: 20px; 
-  margin: 20px; 
-  flex-wrap: wrap; 
+  margin: auto;
   text-align: center; 
 }
 
 .experience-left {
+  display: inline-flex; 
   align-self: flex-start; 
-  margin-right: auto;
+  float: left; 
+  flex-flow: column;
 }
 
 .experience-right {
+  display: inline-flex; 
   align-self: flex-end;
-  padding-left: 550px; 
   float: right; 
+  flex-flow: column;
   text-align: right; 
 }
 
 .experience-main {
   margin: auto;
-  
+  display: inline-flex; 
+  flex-flow: column;
 }
 
 .experience-main ul {

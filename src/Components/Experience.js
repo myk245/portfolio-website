@@ -19,6 +19,8 @@ function Experience() {
                </div>
                <div className="experience-main">
                   <br></br>
+                  <br></br>
+                  <br></br>
                   <ul>
                      <li>Compiled sales reports and presentation materials to drive foreign sales</li>
                      <li>Crafted and pitched serial excerpts to targeted publications and contributed $12,000/year in serial sales</li>
