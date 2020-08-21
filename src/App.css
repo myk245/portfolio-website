@@ -68,11 +68,6 @@
   width: 500px;
 }
 
-/* #resume {
-  height: 600px; 
-  width: 900px;
-} */
-
 .experience-card {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; 
@@ -80,6 +75,7 @@
   padding: 20px; 
   margin: auto;
   text-align: center; 
+  width: 85%;
 }
 
 .experience-left {
@@ -109,7 +105,7 @@
 
 .company-name {
   font-weight: bold; 
-  color: cornflowerblue; 
+  color: rgb(78, 149, 255); 
   text-align: left; 
 }
 
