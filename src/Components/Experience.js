@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { Paper, Card } from '@material-ui/core'; 
+import { Paper, Card, Divider, Typography } from '@material-ui/core'; 
 
 function Experience() {
    return (
@@ -8,6 +8,15 @@ function Experience() {
          <br></br>
          <h1 className="page-title">Experience</h1>
          <Paper className="paper-section" elevation={3} variant="outlined">
+            <p id="summary">
+               Fullstack Software Engineer with experience in Ruby and JavaScript 
+               based programming. During my time in Publishing, I utilized my strong organizational, 
+               analytical thinking, and collaboration skills to drive sales in international and 
+               domestic book rights. My goal is to join a forward-thinking company and to take part 
+               in the vast power inherent to the realm of Software Engineering to create intelligent 
+               solutions for social change.
+            </p>
+            <Divider />
             <br></br>
             <br></br>
             <Card className="experience-card">

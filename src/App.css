@@ -68,6 +68,17 @@
   width: 500px;
 }
 
+#summary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500; 
+  display: inline-block; 
+  text-align: center; 
+  width: 85%; 
+  line-height: 1.4em; 
+  padding: 20px 5px; 
+  color: rgb(17, 36, 99); 
+}
+
 .experience-card {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; 
