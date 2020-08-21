@@ -15,7 +15,7 @@ function Experience() {
                </div>
                <div className="experience-right">
                   <p>New York, NY</p>
-                  <p>04/2017 - 12/2019</p>
+                  <p>April 2017 - December 2019</p>
                </div>
                <div className="experience-main">
                   <br></br>
