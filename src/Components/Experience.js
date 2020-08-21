@@ -18,6 +18,32 @@ function Experience() {
             </p>
             <Divider />
             <br></br>
+            <p>Education</p>
+            <br></br>
+            <div className="education-div">
+               <Card id="education-card-1">
+                  <div className="experience-left">
+                     <p className="company-name">Flatiron School</p>
+                     <p>January 2020 - May 2020</p>
+                     <p>New York, NY</p>
+                     <p>Full Stack Web Development, Ruby on Rails and JavaScript</p>
+                  </div>
+               </Card>
+               <br></br>
+               <Card id="education-card-2">
+                  <div className="experience-left">
+                     <p className="company-name">New York University</p>
+                     <p>August 2010 - May 2014</p>
+                     <p>Bachelor of Arts, Linguistic Anthropology</p>
+                     <p>Summa Cum Laude, Phi Beta Kappa	</p>
+                  </div>
+               </Card>
+            </div>
+            <br></br>
+            <br></br>
+            <Divider />
+            <br></br>
+            <p>Work Experience</p>
             <br></br>
             <Card className="experience-card">
                <div className="experience-left">
@@ -33,7 +59,7 @@ function Experience() {
                   <br></br>
                   <ul>
                      <li>Compiled sales reports and presentation materials to drive foreign sales</li>
-                     <li>Pitched serial excerpts to targeted publications and contributed $12,000/year in serial sales</li>
+                     <li>Pitched serial excerpts to targeted publications; contributed $12,000/year in serial sales</li>
                   </ul>
                </div>
             </Card>
