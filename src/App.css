@@ -155,7 +155,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 19px;
-  color: rgb(53, 53, 53); 
+  color: rgb(78, 119, 255); 
   text-decoration: none;
 }
 
@@ -174,7 +174,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 15px;
-  color: cornflowerblue; 
+  color: rgb(78, 119, 255); 
 }
 
 .menu-items {
@@ -198,7 +198,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 35px;
-  color: cornflowerblue; 
+  color: rgb(78, 119, 255); 
 }
 
 .page-subtitle {
