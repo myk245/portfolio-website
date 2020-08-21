@@ -85,7 +85,6 @@
   align-items: center;
   flex-flow: column;
   margin: auto; 
-  width: 100%; 
 }
 
 #education-card-1 {
@@ -272,6 +271,17 @@
   font-weight: 700;
   font-size: 15px;
   color: rgb(46, 26, 116);
+}
+
+#button {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none; 
+  color: black;
+  border: 1px solid rgb(78, 119, 255);
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center; 
+  margin: 10px;
 }
 
 @media screen and (max-width: 600px) {

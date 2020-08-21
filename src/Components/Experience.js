@@ -1,5 +1,6 @@
 import React from 'react'; 
-import { Paper, Card, Divider, Typography } from '@material-ui/core'; 
+import { Paper, Card, Divider } from '@material-ui/core'; 
+import { Link } from 'react-router-dom';
 
 function Experience() {
    return (
@@ -18,9 +19,9 @@ function Experience() {
             </p>
             <Divider />
             <br></br>
-            <p>Education</p>
-            <br></br>
             <div className="education-div">
+               <p>Education</p>
+               <br></br>
                <Card id="education-card-1">
                   <div className="experience-left">
                      <p className="company-name">Flatiron School</p>
@@ -102,6 +103,9 @@ function Experience() {
                   </ul>
                </div>
             </Card>
+            <br></br>
+            <br></br>
+            <Link to="resume.pdf" target="_blank" download id="button">Download Resume</Link>
             <br></br>
             <br></br>
          </Paper>
