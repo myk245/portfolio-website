@@ -34,5 +34,5 @@ http://www.cindykei.com/
 - Blog Posts
 - Add tech stack to projects
 - More Projects
-- Redesign of experience section
+
 
