@@ -62,6 +62,9 @@ function NavBar() {
                      <a className="menu-items" href="/experience">
                         <MenuItem onClick={handleClose}>Experience</MenuItem>
                      </a>
+                     <a className="menu-items" href="/blog">
+                        <MenuItem onClick={handleClose}>Blog</MenuItem>
+                     </a>
                      <a className="menu-items" href="/contact">
                         <MenuItem onClick={handleClose}>Get In Touch</MenuItem>
                      </a>
