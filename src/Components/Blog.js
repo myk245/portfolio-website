@@ -21,7 +21,7 @@ function Blog() {
                <br></br>
                <CardMedia
                   component="img"
-                  alt="A Mental Health Care App"
+                  alt="JavaScript Testing"
                   height="300"
                   image="altumcode-oZ61KFUQsus-unsplash.jpg"
                >
@@ -31,7 +31,35 @@ function Blog() {
                   <br></br>
                   <Divider></Divider>
                   <br></br>
-                  <a target="_blank" rel="noopener noreferrer" className="plain-link" href="https://medium.com/@cindylouwho92/testing-in-javascript-aa32e51d55ec?source=friends_link&sk=2c4710a82a58bc4d6448d1a7133327a5">Read Article → </a>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/testing-in-javascript-aa32e51d55ec?source=friends_link&sk=2c4710a82a58bc4d6448d1a7133327a5">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
+               <h2>CSS Flexbox</h2>
+               <p>A Guide to the Basics of Flexbox</p>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="CSS Flexbox"
+                  height="300"
+                  image="css-flexbox.jpeg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     CSS Flexbox is a powerful layout module that helps us easily create clean, organized, and responsive applications. Read this beginner's guide to understanding the basics of Flexbox. 
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/css-flexbox-1513e2e073ae?source=friends_link&sk=8546071c6b8247e625f9f60dbbe6a670">Read Article → </a>
                </CardContent>
             </Card>
          </Paper>
