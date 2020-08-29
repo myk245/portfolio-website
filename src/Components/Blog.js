@@ -23,7 +23,7 @@ function Blog() {
                   component="img"
                   alt="JavaScript Testing"
                   height="300"
-                  image="altumcode-oZ61KFUQsus-unsplash.jpg"
+                  image="img/testing.jpg"
                >
                </CardMedia>
                <CardContent>
@@ -46,7 +46,7 @@ function Blog() {
                   component="img"
                   alt="CSS Flexbox"
                   height="300"
-                  image="css-flexbox.jpeg"
+                  image="img/css-flexbox.jpeg"
                >
                </CardMedia>
                <CardContent>
@@ -72,12 +72,12 @@ function Blog() {
                component="img"
                alt="CSS Flexbox"
                height="300"
-               image="recursion.jpeg"
+               image="img/recursion.jpeg"
             >
             </CardMedia>
             <CardContent>
                <p>
-                     A short guide to recursive functions and why they matter in programming.
+                  A short guide to recursive functions and why they matter in programming.
                </p>
                <br></br>   
                <p>
@@ -101,7 +101,7 @@ function Blog() {
                   component="img"
                   alt="Routing"
                   height="300"
-                  image="routing.png"
+                  image="img/routing.png"
                >
                </CardMedia>
                <CardContent>
@@ -121,6 +121,141 @@ function Blog() {
                      href="https://medium.com/swlh/basic-routing-in-javascript-fb3e51a3a57b?source=friends_link&sk=2c72eed47ff98da26e726d67ef30a496">Read Article → </a>
                </CardContent>
             </Card>
+            <br></br>
+            <Card className="project-card">
+               <h2>Deploying Your React App to Heroku</h2>
+               <p>How to Successfully Deploy Your Production Build create-react-app to Heroku</p>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="Heroku Deployment"
+                  height="300"
+                  image="img/heroku.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     So you’ve spent hours building your React app and finally have something you’re proud of and are ready to share — now what? Check out this step-by-step guide on how to configure your production build create-react-app project for deployment to Heroku.
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/deploying-your-react-app-to-heroku-f8969d1539c5?source=friends_link&sk=c884c73d7303ec09e9cd85243b5af3c1">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
+               <h2>Incorporating EmailJS into Your Application</h2>
+               <p>Sending Emails Using Only Client-Side Technology</p>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="EmailJS Service"
+                  height="300"
+                  image="img/client-email.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     Any good portfolio website has to allow for potential employers and clients to get in touch. 
+                     While you can just include your email address or a mailto link on your website, a contact form 
+                     is an easy way to encourage communication as it allows the person who wants to reach out to do 
+                     so easily. EmailJS is a tool that allows you to send emails directly using JavaScript, without 
+                     any backend code involved. Check out this blog post for a look in to how to incorporate EmailJS into your own application!
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/incorporating-emailjs-into-your-application-c6aa10287bfa?source=friends_link&sk=9d2553a798c0f08b2ac9b4a8445ee3ec">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
+               <h2>The Use of AI in Mental Health Care</h2>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="AI in Mental Health Care"
+                  height="300"
+                  image="img/ai-mental.gif"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     A thought-provoking dive into the use of AI in mental health care.
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/the-use-of-ai-in-mental-health-care-98fed59ed96e?source=friends_link&sk=f4b1f5b3d52312fb4eaf034d971da2c1">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
+               <h2>Accessibility & Inclusion on the Web</h2>
+               <p>It's All of Our Responsibility</p>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="Accessibility"
+                  height="300"
+                  image="img/accessibility.gif"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     Web accessibility needs to be a core focus in the world of programming. 
+                     In this article, I explore some ways in which we can start to become 
+                     more thoughtful about developing with web accessibility and inclusion 
+                     at the forefront of our minds.
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/accessibility-inclusion-on-the-web-its-all-of-our-responsibility-e24c5d1ada72?source=friends_link&sk=3d7ba39fe7e7881f21e3e3db28701878">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
+               <h2>The Effects of Technology on the Criminal Justice System</h2>
+               <p>The Use of AI in Criminal Justice</p>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="AI and Criminal Justice"
+                  height="300"
+                  image="img/ai-criminal.gif"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     In this article, I explore the ways in which new and emerging technology plays 
+                     a major role in the application of criminal justice and legal policy. I also 
+                     explore the biases and issues surrounding these technologies and how they affect 
+                     real people. 
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/the-very-real-effects-of-technology-on-the-criminal-justice-system-3e7a25b3b13b?source=friends_link&sk=9f85f8a68a142a403f85975c86a9db21">Read Article → </a>
+               </CardContent>
+            </Card>
+
          </Paper>
       </div>
    ) 
