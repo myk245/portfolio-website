@@ -19,9 +19,6 @@ function Blog() {
                <h2>Testing in JavaScript</h2>
                <p>How Writing Tests for Your Code Can Help Improve Your Code</p>
                <br></br>
-               <p>
-                  <em>Published on The Startup</em>
-               </p>
                <CardMedia
                   component="img"
                   alt="JavaScript Testing"
@@ -31,6 +28,10 @@ function Blog() {
                </CardMedia>
                <CardContent>
                   <p>Testing is an important part of writing clean, efficient code. While testing might seem intimidating and time-consuming, understanding the basics will help us to start implementing tests, resulting in a more professional and efficient end product.</p>
+                  <br></br>
+                  <p>
+                     <em>Published on The Startup</em>
+                  </p>
                   <br></br>
                   <Divider></Divider>
                   <br></br>
