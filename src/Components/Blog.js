@@ -19,6 +19,9 @@ function Blog() {
                <h2>Testing in JavaScript</h2>
                <p>How Writing Tests for Your Code Can Help Improve Your Code</p>
                <br></br>
+               <p>
+                  <em>Published on The Startup</em>
+               </p>
                <CardMedia
                   component="img"
                   alt="JavaScript Testing"
