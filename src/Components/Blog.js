@@ -16,6 +16,29 @@ function Blog() {
             >
             <br></br>
             <Card className="project-card">
+               <h2>How To Approach Algorithms</h2>
+               <p>Understanding and Breaking Down Algorithmic Problems</p>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="JavaScript Testing"
+                  height="300"
+                  image="img/algorithms.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>A short and helpful guide on how to approach algorithmic problems.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/how-to-approach-algorithms-5c45b91ec6b8?source=friends_link&sk=59bf9af3318aa32b1e61c92b6907fc8a">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
                <h2>Testing in JavaScript</h2>
                <p>How Writing Tests for Your Code Can Help Improve Your Code</p>
                <br></br>
