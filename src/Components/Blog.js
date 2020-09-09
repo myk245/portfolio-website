@@ -19,6 +19,10 @@ function Blog() {
                <h2>How To Approach Algorithms</h2>
                <p>Understanding and Breaking Down Algorithmic Problems</p>
                <br></br>
+               <p>
+                  <em>Published on JavaScript in Plain English</em>
+               </p>
+               <br></br>
                <CardMedia
                   component="img"
                   alt="JavaScript Testing"
