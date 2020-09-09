@@ -10,12 +10,11 @@ function Experience() {
          <h1 className="page-title">Experience</h1>
          <Paper className="paper-section" elevation={3} variant="outlined">
             <p id="summary">
-               Fullstack Software Engineer with experience in Ruby and JavaScript 
-               based programming. During my time in Publishing, I utilized my strong organizational, 
-               analytical thinking, and collaboration skills to drive sales in international and 
-               domestic book rights. My goal is to join a forward-thinking company and to take part 
-               in the vast power inherent to the realm of Software Engineering to create intelligent 
-               solutions for social change.
+               Fullstack Software Engineer with a proven track record in driving sales 
+               and delivering results. I am looking forward to joining an innovative, 
+               energetic company where I can utilize my strong problem solving, communication, 
+               and collaboration skills in order to help create thoughtful, intelligent solutions 
+               that make an impact on people's lives.
             </p>
             <Divider />
             <br></br>
