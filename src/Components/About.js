@@ -29,8 +29,11 @@ function About() {
                      Hi, my name's Cindy! I was born in Hong Kong and raised in Queens. 
                      <br></br>
                      <br></br>
-                     I am a Fullstack Software Engineer based in NYC who is interested in creating social change and making a difference through 
-                     innovative, powerful technologies. I am inspired by clean, well-designed, and intuitive applications. 
+                     I am a Fullstack Software Engineer based in NYC who is passionate about creating social change and making a difference through 
+                     innovative, powerful technologies. I have a proven track record in driving sales and delivering results. I am looking forward to 
+                     joining an innovative, energetic company where I can utilize my strong problem solving, communication, and collaboration skills 
+                     in order to help create thoughtful, intelligent solutions that make an impact on people's lives. I am inspired by clean, well-designed, 
+                     and intuitive applications. 
                      <br></br>
                      <br></br>
                      I became interested in the creative exploration of good design and the potential of Software Engineering to reach a global audience, 
