@@ -16,6 +16,31 @@ function Blog() {
             >
             <br></br>
             <Card className="project-card">
+               <h2>Asynchronous Programming</h2>
+               <p>Understanding JavaScript Asynchronous Functions</p>
+               <br></br>
+               <CardMedia
+                  component="img"
+                  alt="Async Thread"
+                  height="300"
+                  image="img/async-thread.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Asynchronous programming can be incredibly useful in creating
+                  efficient, responsive applications that greatly improve the user
+                  experience. This is a basic guide to what it is and how to implement it.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/asynchronous-programming-51a407292698?source=friends_link&sk=96ae1e2ba521d13bdd715d0ee2589302">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
                <h2>How To Approach Algorithms</h2>
                <p>Understanding and Breaking Down Algorithmic Problems</p>
                <br></br>
@@ -25,7 +50,7 @@ function Blog() {
                <br></br>
                <CardMedia
                   component="img"
-                  alt="JavaScript Testing"
+                  alt="Algorithms"
                   height="300"
                   image="img/algorithms.jpg"
                >
