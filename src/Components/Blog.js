@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, Grid, Card, CardMedia, CardContent, Typography, Divider, emphasize } from '@material-ui/core'; 
+import { Paper, Card, CardMedia, CardContent, Divider} from '@material-ui/core'; 
 
 function Blog() {
    return (
@@ -7,7 +7,7 @@ function Blog() {
          <br></br>
          <br></br>
             <p className="page-title">Blog Posts</p>
-            <p className="page-subtitle">Please find a curation of some of my blog posts below.</p>
+            <p className="page-subtitle">Please find a curation of my blog posts below.</p>
          <Paper
             elevation={1}
             style={{ padding: 40, margin: 40, backgroundColor: "#f4f4f4" }}
