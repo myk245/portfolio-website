@@ -216,6 +216,13 @@
   margin: auto; 
 }
 
+.blog-img {
+  object-fit: contain;
+  max-width: 600px;
+  height: auto; 
+  margin: auto; 
+}
+
 #grid-container {
   flex-flow: flex wrap; 
 }

@@ -16,10 +16,35 @@ function Blog() {
             >
             <br></br>
             <Card className="project-card">
+               <h2>Sass Me!</h2>
+               <p>What is Sass and how how do we use it?</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="CSS Sass"
+                  height="300"
+                  image="img/sass.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Sass is an incredibly useful tool that allows us to extend the power and functionality of plain CSS. It allows us to write code that is more succinct, efficient, reusable, and manageable.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/sass-me-fbb0de2ba4bf?source=friends_link&sk=fa6daa56bafd67d6f25874e9ce3f65a2">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
                <h2>Asynchronous Programming</h2>
                <p>Understanding JavaScript Asynchronous Functions</p>
                <br></br>
                <CardMedia
+                  className="blog-img"
                   component="img"
                   alt="Async Thread"
                   height="300"
@@ -44,19 +69,20 @@ function Blog() {
                <h2>How To Approach Algorithms</h2>
                <p>Understanding and Breaking Down Algorithmic Problems</p>
                <br></br>
-               <p>
-                  <em>Published on JavaScript in Plain English</em>
-               </p>
                <br></br>
                <CardMedia
                   component="img"
                   alt="Algorithms"
                   height="300"
                   image="img/algorithms.jpg"
-               >
+                  >
                </CardMedia>
                <CardContent>
                   <p>A short and helpful guide on how to approach algorithmic problems.</p>
+                  <br></br>
+                  <p>
+                     <em>Published on JavaScript in Plain English</em>
+                  </p>
                   <br></br>
                   <Divider></Divider>
                   <br></br>
