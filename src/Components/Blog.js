@@ -13,8 +13,8 @@ function Blog() {
             style={{ padding: 40, margin: 40, backgroundColor: "#f4f4f4" }}
             variant="outlined"
             className="paper-section"
-            >
-            <br></br>
+         >
+         <br></br>
             <Card className="project-card">
                <h2>Sass Me!</h2>
                <p>What is Sass and how how do we use it?</p>
