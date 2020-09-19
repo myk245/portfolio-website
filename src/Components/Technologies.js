@@ -15,10 +15,10 @@ function Icons() {
                <Divider />
                <br></br>
                <br></br>
-               <span class="fab fa-js-square fa-10x" style={{ color: "rgb(153, 156, 164)"}}></span>
+               <span class="fab fa-js-square fa-10x" style={{ color: "rgba(44, 45, 48);"}}></span>
                <p>JavaScript</p>
                <br></br>
-               <span class="fab fa-react fa-10x fa-spin" style={{ color: "rgb(153, 156, 164)" }}></span>
+               <span class="fab fa-react fa-10x fa-spin" style={{color: "rgba(44, 45, 48);"}}></span>
                <p>React</p>
                <br></br>
                <span class="devicon-ruby-plain"></span>
