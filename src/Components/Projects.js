@@ -14,25 +14,29 @@ function Projects() {
             <br></br>
             <br></br>
             <div id="grid-div">
-                     <Card className="project-card">
-                           <Typography gutterBottom variant="h5" component="h2">
-                              Virago
-                           </Typography>
-                           <CardMedia
-                              component="img"
-                              alt="A Mental Health Care App"
-                              height="400"
-                              image="Virago.png"
-                              title="Virago"
-                           />
-                           <CardContent>
-                              <Typography variant="body1" color="textPrimary" component="p">
-                                 Virago is a centralized resource and community support group for mental health care. 
-                              </Typography>
-                        </CardContent>
-                        <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
-                        <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" className="plain-link">Demo</a></Typography>
-                     </Card>
+               <Card className="project-card">
+                  <Typography gutterBottom variant="h5" component="h2">
+                     Virago
+                  </Typography>
+                  <CardMedia
+                     component="img"
+                     alt="A Mental Health Care App"
+                     height="400"
+                     image="Virago.png"
+                     title="Virago"
+                  />
+                  <CardContent>
+                     <Typography variant="body1" color="textPrimary" component="p">
+                     Virago is a centralized resource and community support group for mental health care. 
+                     </Typography>
+                     <Typography variant="body1" color="textPrimary" component="p">
+                     <br></br>
+                     Going through a mental issue can be an overwhelming, scary, and isolating experience. People going through mental health issues often feel alone and unsure of who or where to turn to for help. Virago aims to change the way that we deal with mental health disorders by providing a safe, compassionate space for people to openly and honestly discuss mental health and to support others going through the same thing. Virago provides general mental health wellness tips as well as information on specific mental health disorders and provides a collection of helpful resources.
+                     </Typography>
+                  </CardContent>
+                  <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
+                  <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" className="plain-link">Demo</a></Typography>
+               </Card>
             </div>
             <br></br>
             <br></br>
