@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --tech-icon-color: rgb(166, 166, 167);
+}
+
 .App {
   text-align: center;
 }
@@ -183,6 +187,7 @@
 }
 
 .paper-section {
+  font-family: 'Raleway', sans-serif;
   max-width: 100%;
   height: auto;
   width: auto\9;
@@ -244,35 +249,67 @@
 }
 
 #tech-div {
+  /* display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center; */
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: rgb(46, 46, 46); 
+  margin: auto;
+}
+
+.row {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px; 
+}
+
+.flex-item {
+  font-size: 9rem;
+  color: var(--tech-icon-color);
 }
 
 .devicon-ruby-plain {
+  flex: 1 1 auto; 
   font-size: 8rem;
-  color: rgba(44, 45, 48);
+  color: var(--tech-icon-color);
 }
 
 .devicon-rails-plain {
+  flex: 1 1 auto; 
   font-size: 8rem;
-  color: rgba(44, 45, 48);
+  color: var(--tech-icon-color);
 }
 
 .devicon-postgresql-plain {
+  flex: 1 1 auto; 
   font-size: 8rem;
-  color: rgba(44, 45, 48);
+  color: var(--tech-icon-color);
 }
 
 .devicon-css3-plain{
+  flex: 1 1 auto; 
   font-size: 8rem;
-  color: rgba(44, 45, 48);
+  color: var(--tech-icon-color);
 }
 
 .devicon-html5-plain {
+  flex: 1 1 auto; 
   font-size: 8rem;
-  color: rgba(44, 45, 48);
+  color: var(--tech-icon-color);
 }
 
 .plain-link {
@@ -299,10 +336,5 @@
     max-width: 80%; 
     height: auto; 
   }
-
-  /* #resume {
-    max-width: 90%;
-    height: auto;
-  } */
 }
 
