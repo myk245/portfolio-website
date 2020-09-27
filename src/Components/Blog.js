@@ -337,6 +337,32 @@ function Blog() {
                      href="https://medium.com/@cindylouwho92/the-very-real-effects-of-technology-on-the-criminal-justice-system-3e7a25b3b13b?source=friends_link&sk=9f85f8a68a142a403f85975c86a9db21">Read Article → </a>
                </CardContent>
             </Card>
+            <br></br>
+            <Card className="project-card">
+               <h2>Keep It Clean</h2>
+               <p>The Importance of Keeping Your Code Dry and Clean</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Red Green Refactor"
+                  height="300"
+                  image="img/red-green-refactor.jpeg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     Tips and tricks for keeping your code clean, organized, concise, and maintainable.
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/@cindylouwho92/keep-it-clean-42ef83763fd8?source=friends_link&sk=4fc34fbdf7b1bf18b05daec999db9604">Read Article → </a>
+               </CardContent>
+            </Card>
 
          </Paper>
       </div>
