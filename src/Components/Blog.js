@@ -284,7 +284,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Accessibility & Inclusion on the Web</h2>
-               <p>It's All of Our Responsibility</p>
+               <p>Creating Web Applications That Work for Everyone</p>
                <br></br>
                <CardMedia
                   component="img"
@@ -306,7 +306,7 @@ function Blog() {
                   <a target="_blank"
                      rel="noopener noreferrer"
                      className="plain-link"
-                     href="https://medium.com/@cindylouwho92/accessibility-inclusion-on-the-web-its-all-of-our-responsibility-e24c5d1ada72?source=friends_link&sk=3d7ba39fe7e7881f21e3e3db28701878">Read Article → </a>
+                     href="https://medium.com/@cindylouwho92/accessibility-inclusion-on-the-web-a9dfc9796277?source=friends_link&sk=4c2defe12efe726ece294fd05b55708d">Read Article → </a>
                </CardContent>
             </Card>
             <br></br>
