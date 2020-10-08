@@ -23,10 +23,12 @@ function Projects() {
                   <Typography gutterBottom variant="h5" component="h2">
                      Virago
                   </Typography>
+                  <br></br>
                   <CardMedia
                      component="img"
                      alt="A Mental Health Care App"
-                     height="400"
+                     height="300"
+                     className="blog-img"
                      image="Virago.png"
                      title="Virago"
                   />
@@ -41,6 +43,32 @@ function Projects() {
                   </CardContent>
                   <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
                   <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" className="plain-link">Demo</a></Typography>
+               </Card>
+            </div>
+            <br></br>
+            <br></br>
+            <div id="grid-div">
+               <Card className="project-card">
+                  <Typography gutterBottom variant="h5" component="h2">
+                     GitHub Search
+                  </Typography>
+                  <br></br>
+                  <CardMedia
+                     component="img"
+                     alt="GitHub Search"
+                     height="300"
+                     className="blog-img"
+                     image="github-search.png"
+                     title="GitHub Search"
+                  />
+                  <CardContent>
+                     <Typography variant="body1" color="textPrimary" component="p">
+                     <br></br>
+                     A simple and useful application that allows you to search for and view GitHub profiles by username and view basic information for the user such as website, location, and latest public repos.
+                     </Typography>
+                  </CardContent>
+                  <Typography><a href="https://github.com/myk245/github-search" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
+                  <Typography><a href="https://myk245.github.io/github-search/" target="_blank" rel="noopener noreferrer" className="plain-link">Test Me Out</a></Typography>
                </Card>
             </div>
             <br></br>
