@@ -317,8 +317,9 @@ function Blog() {
                <CardMedia
                   component="img"
                   alt="AI and Criminal Justice"
+                  className="blog-img"
                   height="300"
-                  image="img/ai-criminal.gif"
+                  image="img/ai-criminal.jpeg"
                >
                </CardMedia>
                <CardContent>
@@ -334,7 +335,7 @@ function Blog() {
                   <a target="_blank"
                      rel="noopener noreferrer"
                      className="plain-link"
-                     href="https://medium.com/@cindylouwho92/the-very-real-effects-of-technology-on-the-criminal-justice-system-3e7a25b3b13b?source=friends_link&sk=9f85f8a68a142a403f85975c86a9db21">Read Article → </a>
+                     href="https://medium.com/@cindylouwho92/the-effects-of-technology-on-the-criminal-justice-system-7aa5b417043b?source=friends_link&sk=d98904bd2d74175006eba5886d1ddc94">Read Article → </a>
                </CardContent>
             </Card>
             <br></br>
