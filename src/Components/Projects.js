@@ -1,5 +1,5 @@
 import React from 'react';
-import {Paper, Card, CardContent, CardMedia, Typography} from '@material-ui/core';
+import {Paper, Card, CardContent, CardMedia, Typography, Divider} from '@material-ui/core';
 
 function Projects() {
    
@@ -20,9 +20,7 @@ function Projects() {
             <br></br>
             <div id="grid-div">
                <Card className="project-card">
-                  <Typography gutterBottom variant="h5" component="h2">
-                     Virago
-                  </Typography>
+                  <h2>Virago</h2>
                   <br></br>
                   <CardMedia
                      component="img"
@@ -41,6 +39,7 @@ function Projects() {
                      Going through a mental issue can be an overwhelming, scary, and isolating experience. People going through mental health issues often feel alone and unsure of who or where to turn to for help. Virago aims to change the way that we deal with mental health disorders by providing a safe, compassionate space for people to openly and honestly discuss mental health and to support others going through the same thing. Virago provides general mental health wellness tips as well as information on specific mental health disorders and provides a collection of helpful resources.
                      </Typography>
                   </CardContent>
+                  <Divider/>
                   <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
                   <Typography><a href="https://youtu.be/LnOqoD8Wov8" target="_blank" rel="noopener noreferrer" className="plain-link">Demo</a></Typography>
                </Card>
@@ -49,9 +48,9 @@ function Projects() {
             <br></br>
             <div id="grid-div">
                <Card className="project-card">
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <h2>
                      GitHub Search
-                  </Typography>
+                  </h2>
                   <br></br>
                   <CardMedia
                      component="img"
@@ -67,6 +66,7 @@ function Projects() {
                      A simple and useful application that allows you to search for and view GitHub profiles by username and view basic information for the user such as website, location, and latest public repos.
                      </Typography>
                   </CardContent>
+                  <Divider/>
                   <Typography><a href="https://github.com/myk245/github-search" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
                   <Typography><a href="https://myk245.github.io/github-search/" target="_blank" rel="noopener noreferrer" className="plain-link">Test Me Out</a></Typography>
                </Card>
