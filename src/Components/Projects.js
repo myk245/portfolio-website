@@ -9,7 +9,7 @@ function Projects() {
          <br></br>
          <h1 className="page-title">Projects</h1>
          <br></br>
-            <h6 className="page-subtitle">Below is a selection of my projects. Please feel free to contact me with any questions or comments.</h6>
+         <h6 className="page-subtitle">Below is a selection of my projects. Please feel free to contact me with any questions or comments.</h6>
          <Paper
             elevation={1}
             style={{ padding: 40, margin: 40, backgroundColor: "#f4f4f4" }}
