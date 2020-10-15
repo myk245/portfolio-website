@@ -5,7 +5,7 @@
 }
 
 :root {
-  --tech-icon-color: rgb(166, 166, 167);
+  --tech-icon-color: rgba(78, 119, 255, 0.548); ;
 }
 
 .App {
