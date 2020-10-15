@@ -219,6 +219,17 @@
   font-size: 15px;
   color: rgb(23, 22, 22); 
   margin: auto; 
+  padding: 30px; 
+}
+
+.text-box {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; 
+  font-size: 1rem;
+}
+
+.text-box span {
+  font-weight: 500; 
 }
 
 .blog-img {

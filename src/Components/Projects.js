@@ -22,6 +22,9 @@ function Projects() {
                <Card className="project-card">
                   <h2>Virago</h2>
                   <br></br>
+                  <Divider />
+                  <br></br>
+                  <br></br>
                   <CardMedia
                      component="img"
                      alt="A Mental Health Care App"
@@ -31,13 +34,13 @@ function Projects() {
                      title="Virago"
                   />
                   <CardContent>
-                     <Typography variant="body1" color="textPrimary" component="p">
+                     <div className="text-box">
                      <br></br>
                      Going through a mental issue can be an overwhelming, scary, and isolating experience. Virago aims to change the way that we deal with mental health disorders by providing a safe, compassionate space for people to openly and honestly discuss mental health and to support others going through the same thing. Virago provides general mental health wellness tips as well as information on specific mental health disorders and provides a collection of helpful resources.
                      <br></br>
                      <br></br>
                      <span>Tech Stack: React, Rails, PostgreSQL, Active Record, Bootstrap, Heroku</span>
-                     </Typography>
+                     </div>
                   </CardContent>
                   <Divider/>
                   <Typography><a href="https://github.com/myk245/virago-frontend" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
@@ -52,6 +55,9 @@ function Projects() {
                      GitHub Search
                   </h2>
                   <br></br>
+                  <Divider/>
+                  <br></br>
+                  <br></br>
                   <CardMedia
                      component="img"
                      alt="GitHub Search"
@@ -61,13 +67,13 @@ function Projects() {
                      title="GitHub Search"
                   />
                   <CardContent>
-                     <Typography variant="body1" color="textPrimary" component="p">
+                     <div className="text-box">
                      <br></br>
                      A simple and useful application that allows you to search for and view GitHub profiles by username and view basic information for the user such as website, location, and latest public repos.
                      <br></br>
                      <br></br>
                      <span>Tech Stack: JavaScript, Bootstrap, Bootswatch, GitHub API</span>
-                     </Typography>
+                     </div>
                   </CardContent>
                   <Divider/>
                   <Typography><a href="https://github.com/myk245/github-search" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
