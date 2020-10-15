@@ -82,6 +82,37 @@ function Projects() {
             </div>
             <br></br>
             <br></br>
+            <div id="grid-div">
+               <Card className="project-card">
+                  <h2>
+                     WeatherApp
+                  </h2>
+                  <br></br>
+                  <Divider />
+                  <br></br>
+                  <br></br>
+                  <CardMedia
+                     component="img"
+                     alt="WeatherApp"
+                     height="300"
+                     className="blog-img"
+                     image="weather-app.png"
+                     title="WeatherApp"
+                  />
+                  <CardContent>
+                     <div className="text-box">
+                     <br></br>
+                     A weather application built using JavaScript and the Weatherstack API. 
+                     <br></br>
+                     <br></br>
+                     <span>Tech Stack: JavaScript, Bootstrap, Bootswatch, Weatherstack API</span>
+                     </div>
+                  </CardContent>
+                  <Divider />
+                  <Typography><a href="https://github.com/myk245/weather-app" target="_blank" rel="noopener noreferrer" className="plain-link">GitHub</a></Typography>
+                  <Typography><a href="#" target="_blank" rel="noopener noreferrer" className="plain-link">Test Me Out Feature Coming Soon</a></Typography>
+               </Card>
+            </div>
          </Paper>
          <br></br>
          <br></br>
