@@ -52,16 +52,16 @@ function Icons() {
                   </div>
                   <br></br>
                   <div>
-                     <span className="devicon-css3-plain column"></span>
-                     <p>CSS</p>
+                     <span className="devicon-html5-plain column"></span>
+                     <p>HTML</p>
                   </div>
                   <br></br>
                </div>
 
                <div className="row">
                   <div>
-                     <span className="devicon-html5-plain column"></span>
-                     <p>HTML</p>
+                     <span className="devicon-css3-plain column"></span>
+                     <p>CSS</p>
                   </div>
                   <br></br>
                   <div>
@@ -69,8 +69,19 @@ function Icons() {
                      <p>Sass</p>
                   </div>
                </div>
+               
+               <div className="row">
+                  <div>
+                     <span className="devicon-express-original column"></span>
+                     <p>Express</p>
+                  </div>
+                  <div>
+                     <span className="devicon-nodejs-plain column"></span>
+                     <p>Node.js</p>
+                  </div>
+               </div>
                   
-               </div>            
+            </div>            
             <br></br>
             <br></br>
             <Divider />
