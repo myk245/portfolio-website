@@ -63,7 +63,13 @@ function Icons() {
                      <span className="devicon-html5-plain column"></span>
                      <p>HTML</p>
                   </div>
+                  <br></br>
+                  <div>
+                     <span className="devicon-sass-original column"></span>
+                     <p>Sass</p>
+                  </div>
                </div>
+                  
                </div>            
             <br></br>
             <br></br>

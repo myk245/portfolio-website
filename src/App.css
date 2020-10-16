@@ -314,6 +314,12 @@
   color: var(--tech-icon-color);
 }
 
+.devicon-sass-original {
+  flex: 1 1 auto; 
+  font-size: 8rem;
+  color: var(--tech-icon-color);
+}
+
 .plain-link {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
