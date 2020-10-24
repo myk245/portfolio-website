@@ -8,12 +8,13 @@ function Blog() {
          <br></br>
             <p className="page-title">Blog Posts</p>
             <p className="page-subtitle">Please find a curation of my blog posts below.</p>
-         <Paper
+            <div className="project-div">
+         {/* <Paper
             elevation={1}
             style={{ padding: 40, margin: 40, backgroundColor: "#f4f4f4" }}
             variant="outlined"
             className="paper-section"
-         >
+         > */}
             <br></br>
             <Card className="project-card">
                <h2>Lessons from a Job Search</h2>
@@ -388,8 +389,8 @@ function Blog() {
                      href="https://medium.com/@cindylouwho92/keep-it-clean-42ef83763fd8?source=friends_link&sk=4fc34fbdf7b1bf18b05daec999db9604">Read Article → </a>
                </CardContent>
             </Card>
-
-         </Paper>
+         </div>
+         {/* </Paper> */}
       </div>
    ) 
 }
