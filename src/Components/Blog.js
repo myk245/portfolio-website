@@ -29,7 +29,7 @@ function Blog() {
                >
                </CardMedia>
                <CardContent>
-                  <p>Here are a few valuable tips I've learned during my search for a job as a Software Engineer.</p>
+                  <p>Valuable tips to help you stay focused, motivated, and encouraged during your search for a job as a Software Engineer.</p>
                   <br></br>
                   <Divider></Divider>
                   <br></br>
