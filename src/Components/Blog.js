@@ -14,7 +14,31 @@ function Blog() {
             variant="outlined"
             className="paper-section"
          >
-         <br></br>
+            <br></br>
+            <Card className="project-card">
+               <h2>Lessons from a Job Search</h2>
+               <p>What I’ve Learned So Far in My Hunt for a Software Engineering Position</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Job Search"
+                  height="300"
+                  image="img/job-search.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Here are a few valuable tips I've learned during my search for a job as a Software Engineer.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/lessons-from-a-job-search-72272a8632fa?sk=2ca400253a5848275945f6c5eb3ab8d9">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
             <Card className="project-card">
                <h2>Sass Me!</h2>
                <p>What is Sass and how how do we use it?</p>
