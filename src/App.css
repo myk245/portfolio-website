@@ -363,5 +363,37 @@
     max-width: 80%; 
     height: auto; 
   }
+
+  #navbar {
+    width: 100vw;
+  }
+
+  .project-div {
+    display: flex; 
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0; 
+    margin: 0; 
+  }
+
+  .project-card {
+    background-color: #fbfcff !important;
+    width: 100vw;
+    height: 100vh; 
+    font-size: 18px;
+    margin: 0; 
+    margin-bottom: 10px;
+    padding: 0; 
+    padding-top: 10px;
+    border: #f4f4f4 1px solid;
+    box-shadow: 5px black;
+  }
+
+  #grid-div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 
