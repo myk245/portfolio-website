@@ -30,8 +30,8 @@ function NavBar() {
                      <img
                         src="typography-logo.png"
                         alt="name logo"
-                        width="230"
-                        height="100"
+                        width="100"
+                        height="50"
                      />
                   </a>
                </div>
