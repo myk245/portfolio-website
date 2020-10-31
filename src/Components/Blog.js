@@ -1,20 +1,38 @@
 import React from 'react';
-import { Paper, Card, CardMedia, CardContent, Divider} from '@material-ui/core'; 
+import { Paper, Card, CardMedia, CardContent, Divider } from '@material-ui/core';
 
 function Blog() {
    return (
       <div>
          <br></br>
          <br></br>
-            <p className="page-title">Blog Posts</p>
-            <p className="page-subtitle">Please find a curation of my blog posts below.</p>
-            <div className="project-div">
-         {/* <Paper
-            elevation={1}
-            style={{ padding: 40, margin: 40, backgroundColor: "#f4f4f4" }}
-            variant="outlined"
-            className="paper-section"
-         > */}
+         <p className="page-title">Blog Posts</p>
+         <p className="page-subtitle">Please find a curation of my blog posts below.</p>
+         <div className="project-div">
+            <br></br>
+            <Card className="project-card">
+               <h2>Approaching Technical Interviews</h2>
+               <p>How to Prepare for and Succeed at Technical Interviews</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Tech Interview"
+                  height="300"
+                  image="img/tech-interview.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>How to prepare for and succeed at technical interviews so you can land a Software Engineering job.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/approaching-technical-interviews-6bf182994aa7?sk=b4fb5f33dcfdb47e0514501237c8d255">Read Article → </a>
+               </CardContent>
+            </Card>
             <br></br>
             <Card className="project-card">
                <h2>Lessons from a Job Search</h2>
@@ -100,7 +118,7 @@ function Blog() {
                   alt="Algorithms"
                   height="300"
                   image="img/algorithms.jpg"
-                  >
+               >
                </CardMedia>
                <CardContent>
                   <p>A short and helpful guide on how to approach algorithmic problems.</p>
@@ -158,7 +176,7 @@ function Blog() {
                </CardMedia>
                <CardContent>
                   <p>
-                     CSS Flexbox is a powerful layout module that helps us easily create clean, organized, and responsive applications. Read this beginner's guide to understanding the basics of Flexbox. 
+                     CSS Flexbox is a powerful layout module that helps us easily create clean, organized, and responsive applications. Read this beginner's guide to understanding the basics of Flexbox.
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -170,40 +188,40 @@ function Blog() {
                </CardContent>
             </Card>
             <br></br>
-         <br></br>
-         <Card className="project-card">
-            <h2>Recursive Functions</h2>
-            <p>What is recursion and why should we care?</p>
             <br></br>
-            <CardMedia
-               component="img"
-               alt="CSS Flexbox"
-               height="300"
-               image="img/recursion.jpeg"
-            >
-            </CardMedia>
-            <CardContent>
-               <p>
-                  A short guide to recursive functions and why they matter in programming.
-               </p>
-               <br></br>   
-               <p>
-                  <em>Published on Better Programming</em>   
-               </p>
+            <Card className="project-card">
+               <h2>Recursive Functions</h2>
+               <p>What is recursion and why should we care?</p>
                <br></br>
-               <Divider></Divider>
-               <br></br>
-               <a target="_blank"
-                  rel="noopener noreferrer"
-                  className="plain-link"
-                  href="https://medium.com/better-programming/recursive-functions-2b5ce4610c81?source=friends_link&sk=957a64d81d97bdb18992ff953eed16ad">Read Article → </a>
-            </CardContent>
-         </Card>
-         <br></br>
-         <Card className="project-card">
-            <h2>Basic Routing in JavaScript</h2>
-            <p>Routing Using Express and EJS</p>
+               <CardMedia
+                  component="img"
+                  alt="CSS Flexbox"
+                  height="300"
+                  image="img/recursion.jpeg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>
+                     A short guide to recursive functions and why they matter in programming.
+               </p>
+                  <br></br>
+                  <p>
+                     <em>Published on Better Programming</em>
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/better-programming/recursive-functions-2b5ce4610c81?source=friends_link&sk=957a64d81d97bdb18992ff953eed16ad">Read Article → </a>
+               </CardContent>
+            </Card>
             <br></br>
+            <Card className="project-card">
+               <h2>Basic Routing in JavaScript</h2>
+               <p>Routing Using Express and EJS</p>
+               <br></br>
                <CardMedia
                   component="img"
                   alt="Routing"
@@ -267,10 +285,10 @@ function Blog() {
                </CardMedia>
                <CardContent>
                   <p>
-                     Any good portfolio website has to allow for potential employers and clients to get in touch. 
-                     While you can just include your email address or a mailto link on your website, a contact form 
-                     is an easy way to encourage communication as it allows the person who wants to reach out to do 
-                     so easily. EmailJS is a tool that allows you to send emails directly using JavaScript, without 
+                     Any good portfolio website has to allow for potential employers and clients to get in touch.
+                     While you can just include your email address or a mailto link on your website, a contact form
+                     is an easy way to encourage communication as it allows the person who wants to reach out to do
+                     so easily. EmailJS is a tool that allows you to send emails directly using JavaScript, without
                      any backend code involved. Check out this blog post for a look in to how to incorporate EmailJS into your own application!
                   </p>
                   <br></br>
@@ -320,9 +338,9 @@ function Blog() {
                </CardMedia>
                <CardContent>
                   <p>
-                     Web accessibility needs to be a core focus in the world of programming. 
-                     In this article, I explore some ways in which we can start to become 
-                     more thoughtful about developing with web accessibility and inclusion 
+                     Web accessibility needs to be a core focus in the world of programming.
+                     In this article, I explore some ways in which we can start to become
+                     more thoughtful about developing with web accessibility and inclusion
                      at the forefront of our minds.
                   </p>
                   <br></br>
@@ -349,10 +367,10 @@ function Blog() {
                </CardMedia>
                <CardContent>
                   <p>
-                     In this article, I explore the ways in which new and emerging technology plays 
-                     a major role in the application of criminal justice and legal policy. I also 
-                     explore the biases and issues surrounding these technologies and how they affect 
-                     real people. 
+                     In this article, I explore the ways in which new and emerging technology plays
+                     a major role in the application of criminal justice and legal policy. I also
+                     explore the biases and issues surrounding these technologies and how they affect
+                     real people.
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -390,9 +408,8 @@ function Blog() {
                </CardContent>
             </Card>
          </div>
-         {/* </Paper> */}
       </div>
-   ) 
+   )
 }
 
 export default Blog; 

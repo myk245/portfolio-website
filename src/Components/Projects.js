@@ -1,5 +1,5 @@
 import React from 'react';
-import {Paper, Card, CardContent, CardMedia, Typography, Divider} from '@material-ui/core';
+import {Card, CardContent, CardMedia, Typography, Divider} from '@material-ui/core';
 
 function Projects() {
    
