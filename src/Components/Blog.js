@@ -11,6 +11,30 @@ function Blog() {
          <div className="project-div">
             <br></br>
             <Card className="project-card">
+               <h2>Configuring Your JavaScript Application</h2>
+               <p>Setting Up Your App for Efficiency and Security</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Configuration of Your JavaScript Application"
+                  height="300"
+                  image="img/config-app.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>A guide to configuring your JavaScript application to ensure security and performance.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/configuring-your-javascript-app-d69cf1b01713?sk=91958e2d6936ab1c78c72b49ce934d56">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
                <h2>Approaching Technical Interviews</h2>
                <p>How to Prepare for and Succeed at Technical Interviews</p>
                <br></br>
