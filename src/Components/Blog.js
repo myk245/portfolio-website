@@ -11,6 +11,29 @@ function Blog() {
          <div className="project-div">
             <br></br>
             <Card className="project-card">
+               <h2>JavaScript's Array Reduce Method</h2>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="JavaScript's Array Reduce Method"
+                  height="300"
+                  image="img/reduce.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>While working on a coding assessment, I was challenged to find multiple ways to do the same task. In doing so, I employed JavaScript's reduce() method, an array method that is incredibly useful, yet simple. Here's a concise walk-through and explanation of the method.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/javascripts-array-reduce-method-3bcea104a975?sk=7781a5b07ea9c3d8624d26bb12907866">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
                <h2>Configuring Your JavaScript Application</h2>
                <p>Setting Up Your App for Efficiency and Security</p>
                <br></br>
