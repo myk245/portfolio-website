@@ -26,14 +26,10 @@ function About() {
                   <br></br>
                   <br></br>
                   <Typography id="about-section">
-                     Hi, my name's Cindy! I was born in Hong Kong and raised in Queens. 
+                     Hi, my name's Cindy! I was born in Hong Kong and raised in Queens, NY. 
                      <br></br>
                      <br></br>
-                     I am a Fullstack Software Engineer based in NYC who is passionate about creating social change and making a difference through 
-                     innovative, powerful technologies. I have a proven track record in driving sales and delivering results. I am looking forward to 
-                     joining an innovative, energetic company where I can utilize my strong problem solving, communication, and collaboration skills 
-                     in order to help create thoughtful, intelligent solutions that make an impact on people's lives. I am inspired by clean, well-designed, 
-                     and intuitive applications. 
+                     I am a highly motivated, collaborative, and detail-oriented Fullstack Software Engineer who is passionate about creating social change and making a difference through innovative, powerful technologies. I have experience in e-commerce, sales, and customer service and have a proven track record in driving sales and delivering results. I am driven by the opportunity to use my technical and people skills to make an impact on peoples' lives and to deliver the best user experience. I am looking to join a forward-thinking company where I can utilize my strong problem solving, communication, and critical thinking skills in order to help create thoughtful, intelligent solutions that make an impact on people's lives.
                      <br></br>
                      <br></br>
                      I became interested in the creative exploration of good design and the potential of Software Engineering to reach a global audience, 
