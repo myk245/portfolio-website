@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, Card, CardMedia, CardContent, Divider } from '@material-ui/core';
+import { Card, CardMedia, CardContent, Divider } from '@material-ui/core';
 
 function Blog() {
    return (

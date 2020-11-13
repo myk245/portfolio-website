@@ -16,11 +16,11 @@ function Experience() {
          >
             <Card className="project-card">
                <p id="summary">
-               Fullstack Software Engineer with a proven track record in driving sales 
-               and delivering results. I am looking forward to joining an innovative, 
-               energetic company where I can utilize my strong problem solving, communication, 
-               and collaboration skills in order to help create thoughtful, intelligent solutions 
-               that make an impact on people's lives.
+                  Highly motivated, collaborative, and detail-oriented Fullstack Software Engineer who is passionate about creating
+                  social change and making a difference through innovative, powerful technologies. I have experience in e-commerce,
+                  sales, and customer service and have a proven track record in driving sales and delivering results. I am driven by the
+                  opportunity to use my technical and people skills to make an impact on peoples' lives and to build the best user
+                  experience.
                </p>
                <Divider />
                <br></br>
