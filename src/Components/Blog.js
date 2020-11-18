@@ -24,6 +24,9 @@ function Blog() {
                <CardContent>
                   <p>While working on a coding assessment, I was challenged to find multiple ways to do the same task. In doing so, I employed JavaScript's reduce() method, an array method that is incredibly useful, yet simple. Here's a concise walk-through and explanation of the method.</p>
                   <br></br>
+                  <p>
+                     <em>Published on Better Programming</em>
+                  </p>
                   <Divider></Divider>
                   <br></br>
                   <a target="_blank"
