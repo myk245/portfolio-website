@@ -11,6 +11,30 @@ function Blog() {
          <div className="project-div">
             <br></br>
             <Card className="project-card">
+               <h2>Object-Oriented Programming</h2>
+               <p>A Review of OOP and Its Core Principles</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Object-Oriented Programming"
+                  height="300"
+                  image="img/oop.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>What is Object-Oriented Programming, why is it useful, and what are some OOP languages commonly used?</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/iobject-oriented-programming-6727702c6bbb">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
                <h2>JavaScript's Array Reduce Method</h2>
                <br></br>
                <CardMedia
@@ -27,6 +51,7 @@ function Blog() {
                   <p>
                      <em>Published on Better Programming</em>
                   </p>
+                  <br></br>
                   <Divider></Divider>
                   <br></br>
                   <a target="_blank"
