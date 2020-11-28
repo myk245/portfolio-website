@@ -11,6 +11,29 @@ function Blog() {
          <div className="project-div">
             <br></br>
             <Card className="project-card">
+               <h2>Building a Chatbot Using Botkit</h2>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Building a Chatbot"
+                  height="300"
+                  image="img/chatbot.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Using Botkit, an awesome open-source tool, to build and customize your own conversational bot.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/building-a-chatbot-using-botkit-f8a9a4058bd0?sk=98ffbc7108fca57e0c947fc5100aa1c4">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <Card className="project-card">
                <h2>Object-Oriented Programming</h2>
                <p>A Review of OOP and Its Core Principles</p>
                <br></br>
