@@ -10,6 +10,32 @@ function Blog() {
          <p className="page-subtitle">Please find a curation of my blog posts below.</p>
          <div className="project-div">
             <br></br>
+            <br></br>
+            <Card className="project-card">
+               <h2>CORS</h2>
+               <p>Cross-Origin Resource Sharing -- What It Is and How to Solve CORS Issues</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="CORS"
+                  height="300"
+                  image="img/cors.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>An overview of Cross-Origin Resource Sharing (CORS) and how servers and browsers handle requests for resources.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/cross-origin-resource-sharing-cors-issues-and-how-to-solve-them-8e6c8a910cdd?sk=cac2d662dd4494ff9544ff7fb371dd86">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <br></br>
             <Card className="project-card">
                <h2>Building a Chatbot Using Botkit</h2>
                <br></br>
@@ -32,6 +58,7 @@ function Blog() {
                      href="https://cindylouwho92.medium.com/building-a-chatbot-using-botkit-f8a9a4058bd0?sk=98ffbc7108fca57e0c947fc5100aa1c4">Read Article → </a>
                </CardContent>
             </Card>
+            <br></br>
             <br></br>
             <Card className="project-card">
                <h2>Object-Oriented Programming</h2>
