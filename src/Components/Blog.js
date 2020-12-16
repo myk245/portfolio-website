@@ -12,6 +12,31 @@ function Blog() {
             <br></br>
             <br></br>
             <Card className="project-card">
+               <h2>Data Structures: Stacks</h2>
+               <p>What Stacks Are, How They're Implemented, and When They're Used</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Stacks"
+                  height="300"
+                  image="img/stacks.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Data structures are at the very foundation of Computer Science and Software Engineering. Being a skillful Software Engineer requires a thorough understanding of data structures so that we can work adeptly and efficiently with data. In this week's post, we take a look in to stacks.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/data-structures-stacks-and-queues-236faae1bc53?sk=a94ff10b7c32a08a97ac035dedf84c63">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <br></br>
+            <Card className="project-card">
                <h2>CORS</h2>
                <p>Cross-Origin Resource Sharing -- What It Is and How to Solve CORS Issues</p>
                <br></br>
