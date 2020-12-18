@@ -26,6 +26,10 @@ function Blog() {
                <CardContent>
                   <p>Data structures are at the very foundation of Computer Science and Software Engineering. Being a skillful Software Engineer requires a thorough understanding of data structures so that we can work adeptly and efficiently with data. In this week's post, we take a look in to stacks.</p>
                   <br></br>
+                  <p>
+                     <em>Published on The Startup</em>
+                  </p>
+                  <br></br>
                   <Divider></Divider>
                   <br></br>
                   <a target="_blank"
