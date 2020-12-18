@@ -7,8 +7,33 @@ function Blog() {
          <br></br>
          <br></br>
          <p className="page-title">Blog Posts</p>
-         <p className="page-subtitle">Please find a curation of my blog posts below.</p>
+         <p className="page-subtitle">A curation of my blog posts</p>
          <div className="project-div">
+            <br></br>
+            <br></br>
+            <Card className="project-card">
+               <h2>Algorithm Practice</h2>
+               <p>Checking Whether A String Is A Palindrome</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Palindrome"
+                  height="300"
+                  image="img/palindrome.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: checking whether a given string is a palindrome?</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/algorithm-practice-checking-whether-a-string-is-a-palindrome-be30fc81f7a8?sk=50a920398ddda885b7361f956bb49356">Read Article → </a>
+               </CardContent>
+            </Card>
             <br></br>
             <br></br>
             <Card className="project-card">
