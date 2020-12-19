@@ -26,6 +26,10 @@ function Blog() {
                <CardContent>
                   <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: checking whether a given string is a palindrome?</p>
                   <br></br>
+                  <p>
+                     <em>Published on JavaScript in Plain English</em>
+                  </p>
+                  <br></br>
                   <Divider></Divider>
                   <br></br>
                   <a target="_blank"
