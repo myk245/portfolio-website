@@ -340,7 +340,11 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 15px;
-  color: rgb(46, 26, 116);
+  color: rgb(31, 31, 136);
+}
+
+.plain-link:hover {
+  color: cornflowerblue;
 }
 
 #button {
