@@ -161,6 +161,10 @@
   padding: 20px;
 }
 
+.icon-bar-icon:hover {
+  color: rgb(116, 155, 228);
+}
+
 #connect-with {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
