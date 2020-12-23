@@ -84,6 +84,10 @@ function Blog() {
                <CardContent>
                   <p>An overview of Cross-Origin Resource Sharing (CORS) and how servers and browsers handle requests for resources.</p>
                   <br></br>
+                  <p>
+                     <em>Published on The Startup</em>
+                  </p>
+                  <br></br>
                   <Divider></Divider>
                   <br></br>
                   <a target="_blank"
