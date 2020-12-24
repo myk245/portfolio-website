@@ -13,6 +13,31 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Algorithm Practice</h2>
+               <p>Caesar Cipher Encryptor</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Caesar Cipher Encryptor"
+                  height="300"
+                  image="img/caesar-cipher.png"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: taking an input string and returning a Caesar Cipher encrypted version of it?</p>
+                  <br></>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/algorithm-practice-caesar-cipher-encryptor-19e4fe3a613d?sk=8511665f2045e9a8333b6cec169fd35b">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <br></br>
+            <Card className="project-card">
+               <h2>Algorithm Practice</h2>
                <p>Checking Whether A String Is A Palindrome</p>
                <br></br>
                <CardMedia
