@@ -25,7 +25,7 @@ function Blog() {
                </CardMedia>
                <CardContent>
                   <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: taking an input string and returning a Caesar Cipher encrypted version of it?</p>
-                  <br></>
+                  <br></br>
                   <Divider></Divider>
                   <br></br>
                   <a target="_blank"
