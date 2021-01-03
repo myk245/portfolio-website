@@ -13,6 +13,30 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Algorithm Practice</h2>
+               <p>Product Sum</p>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Caesar Cipher Encryptor"
+                  height="300"
+                  image="img/product-sum.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: finding the product sum of a given array?</p>
+                  <br></br>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/algorithm-practice-product-sum-37e33d6a083c?sk=f41e9c2cf5a5bba07d4516180c022b3a">Read Article → </a>
+               </CardContent>
+            </Card>
+            <Card className="project-card">
+               <h2>Algorithm Practice</h2>
                <p>Caesar Cipher Encryptor</p>
                <br></br>
                <CardMedia
