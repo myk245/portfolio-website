@@ -26,6 +26,12 @@ function Blog() {
                <CardContent>
                   <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: finding the product sum of a given array?</p>
                   <br></br>
+                  <p>
+                     <em>Published on JavaScript in Plain English</em>
+                  </p>
+                  <p>
+                     <em>Recommended by Medium</em>
+                  </p>
                   <br></br>
                   <Divider></Divider>
                   <br></br>
@@ -393,6 +399,9 @@ function Blog() {
                   <p>
                      <em>Published on The Startup</em>
                   </p>
+                  <p>
+                     <em>Recommended by Medium</em>
+                  </p>
                   <br></br>
                   <Divider></Divider>
                   <br></br>
@@ -476,6 +485,9 @@ function Blog() {
                   <br></br>
                   <p>
                      <em>Published on The Startup</em>
+                  </p>
+                  <p>
+                     <em>Recommended by Medium</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
