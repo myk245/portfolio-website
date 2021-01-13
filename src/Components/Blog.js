@@ -27,7 +27,7 @@ function Blog() {
                   <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: finding the product sum of a given array?</p>
                   <br></br>
                   <p>
-                     <em>Published on JavaScript in Plain English</em>
+                     <em>Published in JavaScript in Plain English</em>
                   </p>
                   <p>
                      <em>Recommended by Medium</em>
@@ -57,7 +57,7 @@ function Blog() {
                   <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: taking an input string and returning a Caesar Cipher encrypted version of it?</p>
                   <br></br>
                   <p>
-                     <em>Published on JavaScript in Plain English</em>
+                     <em>Published in JavaScript in Plain English</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -86,7 +86,7 @@ function Blog() {
                   <p>Algorithms are an important part of technical interviews and the only way to get better at them is to keep practicing. How can we approach coming up with a solution to a classic algorithm question: checking whether a given string is a palindrome?</p>
                   <br></br>
                   <p>
-                     <em>Published on JavaScript in Plain English</em>
+                     <em>Published in JavaScript in Plain English</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -115,7 +115,7 @@ function Blog() {
                   <p>Data structures are at the very foundation of Computer Science and Software Engineering. Being a skillful Software Engineer requires a thorough understanding of data structures so that we can work adeptly and efficiently with data. In this week's post, we take a look in to stacks.</p>
                   <br></br>
                   <p>
-                     <em>Published on The Startup</em>
+                     <em>Published in The Startup</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -144,7 +144,7 @@ function Blog() {
                   <p>An overview of Cross-Origin Resource Sharing (CORS) and how servers and browsers handle requests for resources.</p>
                   <br></br>
                   <p>
-                     <em>Published on The Startup</em>
+                     <em>Published in The Startup</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -220,7 +220,7 @@ function Blog() {
                   <p>While working on a coding assessment, I was challenged to find multiple ways to do the same task. In doing so, I employed JavaScript's reduce() method, an array method that is incredibly useful, yet simple. Here's a concise walk-through and explanation of the method.</p>
                   <br></br>
                   <p>
-                     <em>Published on Better Programming</em>
+                     <em>Published in Better Programming</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -370,7 +370,7 @@ function Blog() {
                   <p>A short and helpful guide on how to approach algorithmic problems.</p>
                   <br></br>
                   <p>
-                     <em>Published on JavaScript in Plain English</em>
+                     <em>Published in JavaScript in Plain English</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -397,7 +397,7 @@ function Blog() {
                   <p>Testing is an important part of writing clean, efficient code. While testing might seem intimidating and time-consuming, understanding the basics will help us to start implementing tests, resulting in a more professional and efficient end product.</p>
                   <br></br>
                   <p>
-                     <em>Published on The Startup</em>
+                     <em>Published in The Startup</em>
                   </p>
                   <p>
                      <em>Recommended by Medium</em>
@@ -455,7 +455,7 @@ function Blog() {
                </p>
                   <br></br>
                   <p>
-                     <em>Published on Better Programming</em>
+                     <em>Published in Better Programming</em>
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -484,7 +484,7 @@ function Blog() {
                   </p>
                   <br></br>
                   <p>
-                     <em>Published on The Startup</em>
+                     <em>Published in The Startup</em>
                   </p>
                   <p>
                      <em>Recommended by Medium</em>
