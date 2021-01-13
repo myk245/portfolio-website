@@ -28,10 +28,9 @@ function NavBar() {
                <div id="navbar-title">
                   <a href='/'>
                      <img
+                        id="typography-logo"
                         src="typography-logo.png"
                         alt="name logo"
-                        width="100"
-                        height="50"
                      />
                   </a>
                </div>
