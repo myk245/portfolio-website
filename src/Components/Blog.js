@@ -12,8 +12,33 @@ function Blog() {
             <br></br>
             <br></br>
             <Card className="project-card">
+               <h2>Data Structures</h2>
+               <h3>Binary Search Tree (BST)</h3>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Binary Search Tree"
+                  height="300"
+                  image="img/binary-search-tree.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>The binary search tree (BST) is a powerful and useful data structure that allows us to perform search, insertion, and deletion quite efficiently. Read my latest blog post to learn about the binary search tree structure, its properties, and its uses.</p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://cindylouwho92.medium.com/data-structures-binary-search-trees-870395f8a74b?sk=c3809ab8d2708c1e7a879016e29521d8">Read Article → </a>
+               </CardContent>
+            </Card>
+            <br></br>
+            <br></br>
+            <Card className="project-card">
                <h2>Algorithm Practice</h2>
-               <p>Product Sum</p>
+               <h3>Product Sum</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -43,7 +68,7 @@ function Blog() {
             </Card>
             <Card className="project-card">
                <h2>Algorithm Practice</h2>
-               <p>Caesar Cipher Encryptor</p>
+               <h3>Caesar Cipher Encryptor</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -72,7 +97,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Algorithm Practice</h2>
-               <p>Checking Whether A String Is A Palindrome</p>
+               <h3>Checking Whether A String Is A Palindrome</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -100,8 +125,8 @@ function Blog() {
             <br></br>
             <br></br>
             <Card className="project-card">
-               <h2>Data Structures: Stacks</h2>
-               <p>What Stacks Are, How They're Implemented, and When They're Used</p>
+               <h2>Data Structures</h2>
+               <h3>Stacks</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -130,7 +155,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>CORS</h2>
-               <p>Cross-Origin Resource Sharing -- What It Is and How to Solve CORS Issues</p>
+               <h3>Cross-Origin Resource Sharing -- What It Is and How to Solve CORS Issues</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -183,7 +208,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Object-Oriented Programming</h2>
-               <p>A Review of OOP and Its Core Principles</p>
+               <h3>A Review of OOP and Its Core Principles</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -234,7 +259,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Configuring Your JavaScript Application</h2>
-               <p>Setting Up Your App for Efficiency and Security</p>
+               <h3>Setting Up Your App for Efficiency and Security</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -282,7 +307,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Lessons from a Job Search</h2>
-               <p>What I’ve Learned So Far in My Hunt for a Software Engineering Position</p>
+               <h3>What I’ve Learned So Far in My Hunt for a Software Engineering Position</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -306,7 +331,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Sass Me!</h2>
-               <p>What is Sass and how how do we use it?</p>
+               <h3>What is Sass and how how do we use it?</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -330,7 +355,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Asynchronous Programming</h2>
-               <p>Understanding JavaScript Asynchronous Functions</p>
+               <h3>Understanding JavaScript Asynchronous Functions</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
@@ -356,7 +381,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>How To Approach Algorithms</h2>
-               <p>Understanding and Breaking Down Algorithmic Problems</p>
+               <h3>Understanding and Breaking Down Algorithmic Problems</h3>
                <br></br>
                <br></br>
                <CardMedia
@@ -384,7 +409,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Testing in JavaScript</h2>
-               <p>How Writing Tests for Your Code Can Help Improve Your Code</p>
+               <h3>How Writing Tests for Your Code Can Help Improve Your Code</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -414,7 +439,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>CSS Flexbox</h2>
-               <p>A Guide to the Basics of Flexbox</p>
+               <h3>A Guide to the Basics of Flexbox</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -440,7 +465,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Recursive Functions</h2>
-               <p>What is recursion and why should we care?</p>
+               <h3>What is recursion and why should we care?</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -469,7 +494,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Basic Routing in JavaScript</h2>
-               <p>Routing Using Express and EJS</p>
+               <h3>Routing Using Express and EJS</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -501,7 +526,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Deploying Your React App to Heroku</h2>
-               <p>How to Successfully Deploy Your Production Build create-react-app to Heroku</p>
+               <h3>How to Successfully Deploy Your Production Build create-react-app to Heroku</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -526,7 +551,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Incorporating EmailJS into Your Application</h2>
-               <p>Sending Emails Using Only Client-Side Technology</p>
+               <h3>Sending Emails Using Only Client-Side Technology</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -579,7 +604,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Accessibility & Inclusion on the Web</h2>
-               <p>Creating Web Applications That Work for Everyone</p>
+               <h3>Creating Web Applications That Work for Everyone</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -607,7 +632,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>The Effects of Technology on the Criminal Justice System</h2>
-               <p>The Use of AI in Criminal Justice</p>
+               <h3>The Use of AI in Criminal Justice</h3>
                <br></br>
                <CardMedia
                   component="img"
@@ -636,7 +661,7 @@ function Blog() {
             <br></br>
             <Card className="project-card">
                <h2>Keep It Clean</h2>
-               <p>The Importance of Keeping Your Code Dry and Clean</p>
+               <h3>The Importance of Keeping Your Code Dry and Clean</h3>
                <br></br>
                <CardMedia
                   className="blog-img"
