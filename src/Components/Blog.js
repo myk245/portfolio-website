@@ -7,8 +7,37 @@ function Blog() {
          <br></br>
          <br></br>
          <p className="page-title">Blog Posts</p>
-         <p className="page-subtitle">A curation of my blog posts</p>
+         <p className="page-subtitle">A curation of my technical blog posts</p>
          <div className="project-div">
+            <br></br>
+            <br></br>
+            <Card className="project-card">
+               <h2>Algorithm Practice</h2>
+               <h3>Checking for a Valid Subsequence</h3>
+               <br></br>
+               <CardMedia
+                  className="blog-img"
+                  component="img"
+                  alt="Subsequence"
+                  height="300"
+                  image="img/subsequence.jpg"
+               >
+               </CardMedia>
+               <CardContent>
+                  <p>The only way to get better at algorithms is through consistency and practice — so let’s jump right back in to another algorithm practice. This week, we’re going to take a look at the validate subsequence algorithm. This is an algorithm that is quite common and relatively straight-forward, so it’s a good one to practice with if you’re just starting out with algorithms.</p>
+                  <br></br>
+                  <p>
+                     <em>Published in JavaScript in Plain English</em>
+                  </p>
+                  <br></br>
+                  <Divider></Divider>
+                  <br></br>
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     className="plain-link"
+                     href="https://medium.com/javascript-in-plain-english/algorithm-practice-checking-for-a-valid-subsequence-9753fe28caad?sk=3f551a6766b008bd223aaebd559af94d">Read Article → </a>
+               </CardContent>
+            </Card>
             <br></br>
             <br></br>
             <Card className="project-card">
@@ -25,6 +54,10 @@ function Blog() {
                </CardMedia>
                <CardContent>
                   <p>The binary search tree (BST) is a powerful and useful data structure that allows us to perform search, insertion, and deletion quite efficiently. Read my latest blog post to learn about the binary search tree structure, its properties, and its uses.</p>
+                  <br></br>
+                  <p>
+                     <em>Published in JavaScript in Plain English</em>
+                  </p>
                   <br></br>
                   <Divider></Divider>
                   <br></br>
