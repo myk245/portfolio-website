@@ -21,15 +21,15 @@ function Blog() {
                   alt="AI and Criminal Justice"
                   className="blog-img"
                   height="300"
-                  image="img/ai-criminal.jpeg"
+                  image="img/ai-criminal.jpg"
                >
                </CardMedia>
                <CardContent>
                   <p>
-                     In this article, I explore the ways in which new and emerging technology plays
+                     One of the more controversial uses of technology is the application of algorithms and facial recognition as it relates to the criminal justice system and legal policy. In this article, I explore the ways in which new and emerging technology plays
                      a major role in the application of criminal justice and legal policy. I also
                      explore the biases and issues surrounding these technologies and how they affect
-                     real people.
+                     real people. 
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -51,12 +51,12 @@ function Blog() {
                   component="img"
                   alt="AI in Mental Health Care"
                   height="300"
-                  image="img/ai-mental.gif"
+                  image="img/ai-mental.jpg"
                >
                </CardMedia>
                <CardContent>
                   <p>
-                     A thought-provoking dive into the use of AI in mental health care.
+                  Scientists believe that AI might provide us with a better and more data-driven model for giving accurate mental health diagnoses, discovering underlying physical causes, and most importantly, determining the most effective treatment for a specific mental disorder.
                   </p>
                   <br></br>
                   <Divider></Divider>
@@ -64,7 +64,7 @@ function Blog() {
                   <a target="_blank"
                      rel="noopener noreferrer"
                      className="plain-link"
-                     href="https://medium.com/@cindylouwho92/the-use-of-ai-in-mental-health-care-98fed59ed96e?source=friends_link&sk=f4b1f5b3d52312fb4eaf034d971da2c1">Read Article → </a>
+                     href="https://cindylouwho92.medium.com/artificial-intelligence-and-mental-health-3f561fe9dd1f?sk=49cfa523594e6eed12b858cc5840f505">Read Article → </a>
                </CardContent>
             </Card>
 
@@ -79,7 +79,7 @@ function Blog() {
                   component="img"
                   alt="Accessibility"
                   height="300"
-                  image="img/accessibility.gif"
+                  image="img/accessibility.jpeg"
                >
                </CardMedia>
                <CardContent>
