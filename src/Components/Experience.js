@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { Paper, Card, Divider } from '@material-ui/core'; 
+import { Card, Divider } from '@material-ui/core'; 
 import { Link } from 'react-router-dom';
 
 function Experience() {
@@ -10,11 +10,7 @@ function Experience() {
       <h1 className="page-title">Experience</h1>
          <Card className="project-card">
             <p id="summary">
-               Highly motivated, collaborative, and detail-oriented Fullstack Software Engineer who is passionate about creating
-               social change and making a difference through innovative, powerful technologies. I have experience in e-commerce,
-               sales, and customer service and have a proven track record in driving sales and delivering results. I am driven by the
-               opportunity to use my technical and people skills to make an impact on peoples' lives and to build the best user
-               experience.
+            Highly motivated, adaptable, and detail-oriented Fullstack Software Engineer. Experience in e-commerce and customer service with a proven track record in driving sales and cross-team collaboration. Driven by the opportunity to use my technical and people skills to affect positive social impact and build the best user experience.
             </p>
             <Divider />
             <br></br>
@@ -59,7 +55,7 @@ function Experience() {
                      <br></br>
                      <ul>
                         <li>Compiled sales reports and presentation materials to drive foreign sales</li>
-                        <li>Pitched serial excerpts to targeted publications; contributed $12,000/year in serial sales</li>
+                        <li>Pitched serial opportunities to targeted publications, contributing $12,000/year in serial sales</li>
                      </ul>
                   </div>
                </Card>
@@ -77,8 +73,8 @@ function Experience() {
                   <div className="experience-main">
                      <br></br>
                      <ul>
-                        <li>Coordinated merchandise allocation and maintained price changes in company database</li>
-                        <li>Coded purchase orders and compiled weekly sales reports</li>
+                        <li>Coordinated merchandise allocation and pricing changes</li>
+                        <li>Coded purchase orders into merchandising system and compiled weekly sales reports</li>
                      </ul>
                   </div>
                </Card>
@@ -97,8 +93,8 @@ function Experience() {
                      <br></br>
                      <br></br>
                      <ul>
-                        <li>Edited manuscript drafts and prepared manuscripts for handover to  production</li>
-                        <li>Assisted with preparation of budgets and proposals</li>
+                        <li>Edited manuscript drafts and prepared manuscripts for handover to production</li>
+                        <li>Prepared budgets and book proposals</li>
                      </ul>
                   </div>
                </Card>

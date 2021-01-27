@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextField, Paper, Button, Icon, IconButton, Snackbar, Card } from '@material-ui/core';
+import { TextField, Button, Icon, IconButton, Snackbar, Card } from '@material-ui/core';
 import * as emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
@@ -86,12 +86,6 @@ class Contact extends React.Component {
             </Snackbar>
             <br></br>
             <br></br>
-            <Paper
-               elevation={1}
-               style={{ padding: 40, margin: 40, backgroundColor: "#f4f4f4" }}
-               variant="outlined"
-               className="paper-section"
-            >
                <Card className="project-card">
                   <h1 className="page-title">Get In Touch</h1>
                   <br></br>
@@ -138,7 +132,6 @@ class Contact extends React.Component {
                      <Button variant="contained" color="primary" size="small" endIcon={<Icon>send</Icon>} onClick={this.handleSubmit}>Send Message</Button>
                   </form>
                </Card>
-            </Paper>
             <br></br>
             <br></br>
             <br></br>
