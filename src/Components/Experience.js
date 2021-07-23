@@ -10,7 +10,7 @@ function Experience() {
       <h1 className="page-title">Experience</h1>
          <Card className="project-card">
             <p id="summary">
-            Highly motivated, growth-minded, and detail-oriented Fullstack Software Engineer. Experience in e-commerce and customer service with a proven track record in driving sales and cross-team collaboration. Driven by the opportunity to use my technical and people skills to affect positive social impact and build the best user experience.
+            Highly motivated and growth-minded Full-Stack Software Engineer with a focus on the User Experience. Curious self-starter with a proven ability in cross-team collaboration. Excited for the opportunity to use my technical and people skills to build thoughtful solutions that create a positive impact.
             </p>
             <Divider />
             <br></br>
